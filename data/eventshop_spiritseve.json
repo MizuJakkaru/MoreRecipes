@@ -1,0 +1,56 @@
+{
+	"Changes": [
+		// add shop data - spirit's eve recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Festival_SpiritsEve_Pierre", "Items" ],
+			"Entries":  {
+				"MizuLeo.MoreRecipes_CandiedApple": {
+					"Id": "MizuLeo.MoreRecipes_CandiedApple",
+					"ItemId": "MizuLeo.MoreRecipes_CandiedApple",
+					"Price": 1000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_CaramelApple": {
+					"Id": "MizuLeo.MoreRecipes_CaramelApple",
+					"ItemId": "MizuLeo.MoreRecipes_CaramelApple",
+					"Price": 1000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_HardCandies": {
+					"Id": "MizuLeo.MoreRecipes_HardCandies",
+					"ItemId": "MizuLeo.MoreRecipes_HardCandies",
+					"Price": 200,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_Taffy": {
+					"Id": "MizuLeo.MoreRecipes_Taffy",
+					"ItemId": "MizuLeo.MoreRecipes_Taffy",
+					"Price": 500,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_Licorice": {
+					"Id": "MizuLeo.MoreRecipes_Licorice",
+					"ItemId": "MizuLeo.MoreRecipes_Licorice",
+					"Condition": "YEAR 2",
+					"Price": 2000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_PeanutButterCups": {
+					"Id": "MizuLeo.MoreRecipes_PeanutButterCups",
+					"ItemId": "MizuLeo.MoreRecipes_PeanutButterCups",
+					"Condition": "YEAR 2",
+					"Price": 2000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				}
+			}
+		},
+    ]
+}

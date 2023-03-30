@@ -1,0 +1,47 @@
+{
+	"Changes": [
+		// add shop data - festival of ice recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Festival_FestivalOfIce_TravelingMerchant", "Items" ],
+			"Entries": {
+				"MizuLeo.MoreRecipes_GreenBeanCasserole": {
+					"Id": "MizuLeo.MoreRecipes_GreenBeanCasserole",
+					"ItemId": "MizuLeo.MoreRecipes_GreenBeanCasserole",
+					"Price": 1000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_MashedPotatoes": {
+					"Id": "MizuLeo.MoreRecipes_MashedPotatoes",
+					"ItemId": "MizuLeo.MoreRecipes_MashedPotatoes",
+					"Price": 2500,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_MushroomSoup": {
+					"Id": "MizuLeo.MoreRecipes_MushroomSoup",
+					"ItemId": "MizuLeo.MoreRecipes_MushroomSoup",
+					"Price": 1000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_PecanPie": {
+					"Id": "MizuLeo.MoreRecipes_PecanPie",
+					"ItemId": "MizuLeo.MoreRecipes_PecanPie",
+					"Price": 2000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_SweetPotatoCasserole": {
+					"Id": "MizuLeo.MoreRecipes_SweetPotatoCasserole",
+					"ItemId": "MizuLeo.MoreRecipes_SweetPotatoCasserole",
+					"Price": 1000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				}
+			}
+		},
+    ]
+}

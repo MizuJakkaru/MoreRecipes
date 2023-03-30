@@ -1,0 +1,12 @@
+{
+    "Name": "More Recipes",
+    "Author": "MizuJakkaru, DraconisLeonidas",
+    "Description": "A port of PPJA More Recipes for SDV 1.6 Content Patcher",
+    "Version": "1.0.0",
+    "MinimumApiVersion": "4.0.0-alpha",
+    "UniqueID": "MizuLeo.MoreRecipes",
+    //"UpdateKeys": ["Nexus:"],
+	"ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

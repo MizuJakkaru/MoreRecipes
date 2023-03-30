@@ -1,0 +1,33 @@
+{
+    "Changes": [
+		// add shop data - island trader recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "IslandTrade", "Items" ],
+			"Entries": {
+				"MizuLeo.MoreRecipes_BonitoFlakes": {
+					"Id": "MizuLeo.MoreRecipes_BonitoFlakes",
+					"ItemId": "MizuLeo.MoreRecipes_BonitoFlakes",
+					"TradeItemId": "(O)130", // Tuna
+					"TradeItemAmount": 1,
+					"IgnoreShopPriceModifiers": true
+				},
+				"MizuLeo.MoreRecipes_Margarita": {
+					"Id": "MizuLeo.MoreRecipes_Margarita",
+					"ItemId": "MizuLeo.MoreRecipes_Margarita",
+					"TradeItemId": "(O)838", // Blue Discus
+					"TradeItemAmount": 1,
+					"IgnoreShopPriceModifiers": true
+				},
+				"MizuLeo.MoreRecipes_NightontheBeach": {
+					"Id": "MizuLeo.MoreRecipes_NightontheBeach",
+					"ItemId": "MizuLeo.MoreRecipes_NightontheBeach",
+					"TradeItemId": "(O)837", // Lionfish
+					"TradeItemAmount": 1,
+					"IgnoreShopPriceModifiers": true
+				}
+			}
+		},
+    ]
+}

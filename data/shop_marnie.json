@@ -1,0 +1,26 @@
+{
+	"Changes": [
+		// add shop data - marnie's ranch recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "AnimalShop", "Items" ],
+			"Entries": {
+				"MizuLeo.MoreRecipes_BrownSugar": {
+					"Id": "MizuLeo.MoreRecipes_BrownSugar",
+					"ItemId": "MizuLeo.MoreRecipes_BrownSugar",
+					"Price": 50,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_HoneyButter": {
+					"Id": "MizuLeo.MoreRecipes_HoneyButter",
+					"ItemId": "MizuLeo.MoreRecipes_HoneyButter",
+					"Price": 50,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				}
+			}
+		},
+    ]
+}

@@ -1,0 +1,49 @@
+{
+	"Changes": [
+		// add shop data - feast of the winter star recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Festival_FeastOfTheWinterStar_Pierre", "Items" ],
+			"Entries": {
+				"MizuLeo.MoreRecipes_Fruitcake": {
+					"Id": "MizuLeo.MoreRecipes_Fruitcake",
+					"ItemId": "MizuLeo.MoreRecipes_Fruitcake",
+					"Price": 1000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_Gingerbread": {
+					"Id": "MizuLeo.MoreRecipes_Gingerbread",
+					"ItemId": "MizuLeo.MoreRecipes_Gingerbread",
+					"Price": 500,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_PeppermintCandy": {
+					"Id": "MizuLeo.MoreRecipes_PeppermintCandy",
+					"ItemId": "MizuLeo.MoreRecipes_PeppermintCandy",
+					"Price": 500,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_Fudge": {
+					"Id": "MizuLeo.MoreRecipes_Fudge",
+					"ItemId": "MizuLeo.MoreRecipes_Fudge",
+					"Condition": "YEAR 2",
+					"Price": 1500,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_HibernalTea": {
+					"Id": "MizuLeo.MoreRecipes_HibernalTea",
+					"ItemId": "MizuLeo.MoreRecipes_HibernalTea",
+					"Condition": "YEAR 2",
+					"Price": 3000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				}
+			}
+		},
+    ]
+}

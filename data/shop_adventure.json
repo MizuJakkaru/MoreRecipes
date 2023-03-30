@@ -1,0 +1,33 @@
+{
+	"Changes": [
+		// add shop data - adventurer's guild recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "AdventureShop", "Items" ],
+			"Entries": {
+				"MizuLeo.MoreRecipes_GrahamCracker": {
+					"Id": "MizuLeo.MoreRecipes_GrahamCracker",
+					"ItemId": "MizuLeo.MoreRecipes_GrahamCracker",
+					"Price": 100,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_Marshmallow": {
+					"Id": "MizuLeo.MoreRecipes_Marshmallow",
+					"ItemId": "MizuLeo.MoreRecipes_Marshmallow",
+					"Price": 100,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_Smore": {
+					"Id": "MizuLeo.MoreRecipes_Smore",
+					"ItemId": "MizuLeo.MoreRecipes_Smore",
+					"Price": 1000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				}
+			}
+		},
+    ]
+}

@@ -1,0 +1,33 @@
+{
+	"Changes": [
+		// add shop data - oasis recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Oasis", "Items" ],
+			"Entries": {
+				"MizuLeo.MoreRecipes_CranberryPomegranateTea": {
+					"Id": "MizuLeo.MoreRecipes_CranberryPomegranateTea",
+					"ItemId": "MizuLeo.MoreRecipes_CranberryPomegranateTea",
+					"Price": 500,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_SpicedTea": {
+					"Id": "MizuLeo.MoreRecipes_SpicedTea",
+					"ItemId": "MizuLeo.MoreRecipes_SpicedTea",
+					"Price": 1250,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_StrawberryGrapefruitTea": {
+					"Id": "MizuLeo.MoreRecipes_StrawberryGrapefruitTea",
+					"ItemId": "MizuLeo.MoreRecipes_StrawberryGrapefruitTea",
+					"Price": 500,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				}
+			}
+		},
+    ]
+}

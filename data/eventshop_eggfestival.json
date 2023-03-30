@@ -1,0 +1,41 @@
+{
+	"Changes": [
+		// add shop data - egg festival recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Festival_EggFestival_Pierre", "Items" ],
+			"Entries": {
+				"MizuLeo.MoreRecipes_Caramel": {
+					"Id": "MizuLeo.MoreRecipes_Caramel",
+					"ItemId": "MizuLeo.MoreRecipes_Caramel",
+					"Price": 500,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_CaramelEgg": {
+					"Id": "MizuLeo.MoreRecipes_CaramelEgg",
+					"ItemId": "MizuLeo.MoreRecipes_CaramelEgg",
+					"Price": 1000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_HardBoiledEgg": {
+					"Id": "MizuLeo.MoreRecipes_HardBoiledEgg",
+					"ItemId": "MizuLeo.MoreRecipes_HardBoiledEgg",
+					"Price": 500,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_CarrotCake": {
+					"Id": "MizuLeo.MoreRecipes_CarrotCake",
+					"ItemId": "MizuLeo.MoreRecipes_CarrotCake",
+					"Condition": "YEAR 2",
+					"Price": 3000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				}
+			}
+		},
+    ]
+}

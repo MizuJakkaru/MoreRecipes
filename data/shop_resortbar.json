@@ -1,0 +1,54 @@
+{
+	"Changes": [
+		// add shop data - beach resort recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "ResortBar", "Items" ],
+			"Entries": {
+				"MizuLeo.MoreRecipes_FernIslandIcedTea": {
+					"Id": "MizuLeo.MoreRecipes_FernIslandIcedTea",
+					"ItemId": "MizuLeo.MoreRecipes_FernIslandIcedTea",
+					"Price": 3000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_MaiTai": {
+					"Id": "MizuLeo.MoreRecipes_MaiTai",
+					"ItemId": "MizuLeo.MoreRecipes_MaiTai",
+					"Price": 2500,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_PinaColada": {
+					"Id": "MizuLeo.MoreRecipes_PinaColada",
+					"ItemId": "MizuLeo.MoreRecipes_PinaColada",
+					"Price": 1500,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_TequilaSunrise": {
+					"Id": "MizuLeo.MoreRecipes_TequilaSunrise",
+					"ItemId": "MizuLeo.MoreRecipes_TequilaSunrise",
+					"Price": 2500,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_TropicalSalad": {
+					"Id": "MizuLeo.MoreRecipes_TropicalSalad",
+					"ItemId": "MizuLeo.MoreRecipes_TropicalSalad",
+					"Price": 2000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_TropicalTrailMix": {
+					"Id": "MizuLeo.MoreRecipes_TropicalTrailMix",
+					"ItemId": "MizuLeo.MoreRecipes_TropicalTrailMix",
+					"Price": 1200,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				}
+			}
+		},
+    ]
+}

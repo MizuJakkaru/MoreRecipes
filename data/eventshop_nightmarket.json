@@ -1,0 +1,84 @@
+{
+	"Changes": [
+		// add shop data - night market day 1 recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Festival_NightMarket_MagicBoat_Day1", "Items" ],
+			"Entries": {
+				"MizuLeo.MoreRecipes_CottonCandy": {
+					"Id": "MizuLeo.MoreRecipes_CottonCandy",
+					"ItemId": "MizuLeo.MoreRecipes_CottonCandy",
+					"Price": 500,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_Dango": {
+					"Id": "MizuLeo.MoreRecipes_Dango",
+					"ItemId": "MizuLeo.MoreRecipes_Dango",
+					"Price": 1000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_SoftPretzel": {
+					"Id": "MizuLeo.MoreRecipes_SoftPretzel",
+					"ItemId": "MizuLeo.MoreRecipes_SoftPretzel",
+					"Price": 1000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				}
+			}
+		},
+		// add shop data - night market day 2 recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Festival_NightMarket_MagicBoat_Day2", "Items" ],
+			"Entries": {
+				"MizuLeo.MoreRecipes_BakedApple": {
+					"Id": "MizuLeo.MoreRecipes_BakedApple",
+					"ItemId": "MizuLeo.MoreRecipes_BakedApple",
+					"Price": 1000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_RedBeanBun": {
+					"Id": "MizuLeo.MoreRecipes_RedBeanBun",
+					"ItemId": "MizuLeo.MoreRecipes_RedBeanBun",
+					"Price": 2000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_Takoyaki": {
+					"Id": "MizuLeo.MoreRecipes_Takoyaki",
+					"ItemId": "MizuLeo.MoreRecipes_Takoyaki",
+					"Price": 3000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				}
+			}
+		},
+		// add shop data - night market day 3 recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Festival_NightMarket_MagicBoat_Day3", "Items" ],
+			"Entries": {
+				"MizuLeo.MoreRecipes_FriedSweetBanana": {
+					"Id": "MizuLeo.MoreRecipes_FriedSweetBanana",
+					"ItemId": "MizuLeo.MoreRecipes_FriedSweetBanana",
+					"Price": 1000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_Taiyaki": {
+					"Id": "MizuLeo.MoreRecipes_Taiyaki",
+					"ItemId": "MizuLeo.MoreRecipes_Taiyaki",
+					"Price": 2000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				}
+			}
+		},
+    ]
+}

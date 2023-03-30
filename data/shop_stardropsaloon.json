@@ -1,0 +1,131 @@
+{
+	"Changes": [
+		// add shop data - stardrop saloon recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Saloon", "Items" ],
+			"Entries": {
+				"MizuLeo.MoreRecipes_ClubSoda": {
+					"Id": "MizuLeo.MoreRecipes_ClubSoda",
+					"ItemId": "MizuLeo.MoreRecipes_ClubSoda",
+					"Price": 50,
+					"IgnoreShopPriceModifiers": true
+				}
+			}
+		},
+		// add shop data - saloon recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Saloon", "Items" ],
+			"Entries": {
+				"MizuLeo.MoreRecipes_AppleCider": {
+					"Id": "MizuLeo.MoreRecipes_AppleCider",
+					"ItemId": "MizuLeo.MoreRecipes_AppleCider",
+					"Price": 800,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_CheeseBoard": {
+					"Id": "MizuLeo.MoreRecipes_CheeseBoard",
+					"ItemId": "MizuLeo.MoreRecipes_CheeseBoard",
+					"Price": 100,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_Chocolate": {
+					"Id": "MizuLeo.MoreRecipes_Chocolate",
+					"ItemId": "MizuLeo.MoreRecipes_Chocolate",
+					"Price": 50,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_ChocolatePudding": {
+					"Id": "MizuLeo.MoreRecipes_ChocolatePudding",
+					"ItemId": "MizuLeo.MoreRecipes_ChocolatePudding",
+					"Price": 100,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_ClassicTrailMix": {
+					"Id": "MizuLeo.MoreRecipes_ClassicTrailMix",
+					"ItemId": "MizuLeo.MoreRecipes_ClassicTrailMix",
+					"Price": 75,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_FruitBar": {
+					"Id": "MizuLeo.MoreRecipes_FruitBar",
+					"ItemId": "MizuLeo.MoreRecipes_FruitBar",
+					"Price": 50,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_HardIcedTea": {
+					"Id": "MizuLeo.MoreRecipes_HardIcedTea",
+					"ItemId": "MizuLeo.MoreRecipes_HardIcedTea",
+					"Price": 500,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_HomemadePopcorn": {
+					"Id": "MizuLeo.MoreRecipes_HomemadePopcorn",
+					"ItemId": "MizuLeo.MoreRecipes_HomemadePopcorn",
+					"Price": 100,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_Ketchup": {
+					"Id": "MizuLeo.MoreRecipes_Ketchup",
+					"ItemId": "MizuLeo.MoreRecipes_Ketchup",
+					"Price": 50,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_Milkshake": {
+					"Id": "MizuLeo.MoreRecipes_Milkshake",
+					"ItemId": "MizuLeo.MoreRecipes_Milkshake",
+					"Price": 80,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_Mustard": {
+					"Id": "MizuLeo.MoreRecipes_Mustard",
+					"ItemId": "MizuLeo.MoreRecipes_Mustard",
+					"Price": 50,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_SingleShotEspresso": {
+					"Id": "MizuLeo.MoreRecipes_SingleShotEspresso",
+					"ItemId": "MizuLeo.MoreRecipes_SingleShotEspresso",
+					"Price": 3000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_SouthernSweetTea": {
+					"Id": "MizuLeo.MoreRecipes_SouthernSweetTea",
+					"ItemId": "MizuLeo.MoreRecipes_SouthernSweetTea",
+					"Price": 1200,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_VanillaPudding": {
+					"Id": "MizuLeo.MoreRecipes_VanillaPudding",
+					"ItemId": "MizuLeo.MoreRecipes_VanillaPudding",
+					"Price": 100,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_WhiteChocolate": {
+					"Id": "MizuLeo.MoreRecipes_WhiteChocolate",
+					"ItemId": "MizuLeo.MoreRecipes_WhiteChocolate",
+					"Price": 50,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				}
+			}
+		},
+    ]
+}

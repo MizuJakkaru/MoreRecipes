@@ -1,0 +1,19 @@
+{
+	"Changes": [
+		// add shop data - luau recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Festival_Luau_Pierre", "Items" ],
+			"Entries": {
+				"MizuLeo.MoreRecipes_BlueHurricane": {
+					"Id": "MizuLeo.MoreRecipes_BlueHurricane",
+					"ItemId": "MizuLeo.MoreRecipes_BlueHurricane",
+					"Price": 2000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				}
+			}
+		},
+    ]
+}

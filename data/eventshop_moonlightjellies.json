@@ -1,0 +1,20 @@
+{
+	"Changes": [
+		// add shop data - dance of the moonlight jellies recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Festival_DanceOfTheMoonlightJellies_Pierre", "Items" ],
+			"Entries": {
+				"MizuLeo.MoreRecipes_EstivalTea": {
+					"Id": "MizuLeo.MoreRecipes_EstivalTea",
+					"ItemId": "MizuLeo.MoreRecipes_EstivalTea",
+					"Condition": "YEAR 2",
+					"Price": 3000,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				}
+			}
+		},
+    ]
+}

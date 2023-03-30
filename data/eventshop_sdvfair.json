@@ -1,0 +1,27 @@
+{
+	"Changes": [
+		// add shop data - stardew valley fair recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Festival_StardewValleyFair_StarTokens", "Items" ],
+			"Entries": {
+				"MizuLeo.MoreRecipes_RoastedAlmonds": {
+					"Id": "MizuLeo.MoreRecipes_RoastedAlmonds",
+					"ItemId": "MizuLeo.MoreRecipes_RoastedAlmonds",
+					"Price": 100,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				},
+				"MizuLeo.MoreRecipes_AutumnalTea": {
+					"Id": "MizuLeo.MoreRecipes_AutumnalTea",
+					"ItemId": "MizuLeo.MoreRecipes_AutumnalTea",
+					"Condition": "YEAR 2",
+					"Price": 1500,
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
+				}
+			}
+		},
+    ]
+}
