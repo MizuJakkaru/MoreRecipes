@@ -4,7 +4,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": [ "Oasis", "Items" ],
+			"TargetField": [ "Sandy", "Items" ],
 			"Entries": {
 				"MizuLeo.MoreRecipes_CranberryPomegranateTea": {
 					"Id": "MizuLeo.MoreRecipes_CranberryPomegranateTea",

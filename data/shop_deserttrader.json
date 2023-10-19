@@ -11,7 +11,8 @@
 					"ItemId": "MizuLeo.MoreRecipes_HoneyCake",
 					"TradeItemId": "(O)68", // Topaz
 					"TradeItemAmount": 1,
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"IsRecipe": true
 				}
 			}
 		},
