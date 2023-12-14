@@ -1,338 +1,5022 @@
 {
-	"Changes": [
-		// add items
-		{
-			"Action": "EditData",
-			"Target": "Data/ObjectInformation",
-			"Entries": {
-				// food
-				"MizuLeo.MoreRecipes_AvocadoToast": "Avocado Toast/300/50/Cooking -7/Avocado Toast/You just don't understand it!/food/0 0 0 0 2 0 0 0 0 0 0 0/430/168/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_BakedBeans": "Baked Beans/225/30/Cooking -7/Baked Beans/Hearty beans cooked to be slightly sweet./food///169/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_BakedPotato": "Baked Potato/120/54/Cooking -7/Baked Potato/A potato, roasted and covered in butter./food///170/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_BakedSweetPotato": "Baked Sweet Potato/90/50/Cooking -7/Baked Sweet Potato/A simple baked sweet potato. Tasty on a cold day!/food/0 0 0 0 0 1 0 0 0 0 0 0/300/171/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Biscuit": "Biscuit/150/20/Cooking -7/Biscuit/A flour-based bread with a firm crust and a soft interior./food///172/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_BroccoliandCheese": "Broccoli and Cheese/90/20/Cooking -7/Broccoli and Cheese/Steamed broccoli covered in gooey cheese./food///173/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Broth": "Broth/175/30/Cooking -7/Broth/Standard vegetable broth./food///174/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_BrownSugar": "Brown Sugar/75/10/Cooking -7/Brown Sugar/It’s plain sugar mixed with molasses./food///175/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_ButternutSquashSoup": "Butternut Squash Soup/260/34/Cooking -7/Butternut Squash Soup/A buttery smooth soup made from squash and vegetables./food///176/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CeleryandPeanutButter": "Celery and Peanut Butter/50/20/Cooking -7/Celery and Peanut Butter/An easy snack that’s light but savory./food/0 0 0 0 0 0 0 0 0 0 0 2/480/177/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CheeseBoard": "Cheese Board/320/50/Cooking -7/Cheese Board/A perfect party platter!/food///178/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CheeseFries": "Cheese Fries/175/30/Cooking -7/Cheese Fries/A basket of fries drenched in cheese!/food///179/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CheesePuffs": "Cheese Puffs/200/30/Cooking -7/Cheese Puffs/Don't eat too many, they'll turn your fingers orange./food///180/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_ChefSalad": "Chef Salad/110/45/Cooking -7/Chef Salad/The chef’s choice of salads./food///181/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_ClassicTrailMix": "Classic Trail Mix/150/20/Cooking -7/Classic Trail Mix/The staple recipe for trail mix./food///182/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Cornbread": "Cornbread/155/20/Cooking -7/Cornbread/Bread made from corn flour./food///183/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CreamCheese": "Cream Cheese/80/-300/Cooking -7/Cream Cheese/Creamed milk. A common topping and filling product./food///184/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CucumberSandwich": "Cucumber Sandwich/65/20/Cooking -7/Cucumber Sandwich/A plain, refreshing tea sandwich./food///185/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_DeviledEggs": "Deviled Eggs/350/45/Cooking -7/Deviled Eggs/Get thee into my mouth./food/0 0 0 0 1 0 0 50 0 0 0 0/600/186/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_FriedGreenTomatoes": "Fried Green Tomatoes/200/32/Cooking -7/Fried Green Tomatoes/Young tomatoes, battered and fried./food///188/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_FriedOkra": "Fried Okra/200/32/Cooking -7/Fried Okra/Deep fried okra. Crispy on the outside, moist within./food///189/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_FruitBar": "Fruit Bar/110/36/Cooking -7/Fruit Bar/A fruit flavored field snack./food///190/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_FruitLeather": "Fruit Leather/80/36/Cooking -7/Fruit Leather/A flat sheet of fruit pulp. It's sweet and chewy./food///191/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_GarlicBread": "Garlic Bread/200/20/Cooking -7/Garlic Bread/Buttery garlic bread. Serve it with dinner./food///192/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_GreenBeanCasserole": "Green Bean Casserole/200/30/Cooking -7/Green Bean Casserole/A baked casserole dish topped with crunchy onions./food///193/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_GrilledCheese": "Grilled Cheese/150/36/Cooking -7/Grilled Cheese/The classic sandwich./food///194/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_GrilledZucchini": "Grilled Zucchini/200/45/Cooking -7/Grilled Zucchini/Zucchini roasted to perfection./food///195/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_HardBoiledEgg": "Hard Boiled Egg/120/20/Cooking -7/Hard Boiled Egg/Eggs boiled in water. Eat them as a meal or a snack./food/0 0 1 0 0 0 0 0 0 0 0 0/360/196/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_HerbCheese": "Herb Cheese/220/-300/Cooking -7/Herb Cheese/A soft cheese with numerous herbs mixed into it./food///197/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_HomemadePopcorn": "Homemade Popcorn/100/20/Cooking -7/Homemade Popcorn/Corn kernels fried until they popped./food///216/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_HoneyButter": "Honey Butter/100/-300/Cooking -7/Honey Butter/A sweet butter and honey mixture./food///198/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_HotSauce": "Hot Sauce/300/-300/Cooking -7/Hot Sauce/A spicy sauce.////199/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_JalapenoCornbread": "Jalapeño Cornbread/200/20/Cooking -7/Jalapeño Cornbread/It's a trap! Who thought this was a good idea?/food///200/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_JohnnyCakes": "Johnny Cakes/175/36/Cooking -7/Johnny Cakes/Similar to pancakes, only corn-based./food///201/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Ketchup": "Ketchup/12/-300/Cooking -7/Ketchup/A paste of tomatoes sweetened with sugar.////202/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_MacandCheese": "Mac and Cheese/220/30/Cooking -7/Mac and Cheese/Gooey and cheesy!/food/0 0 0 0 0 0 0 0 0 0 2 0/660/204/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_MacandFishBake": "Mac and Fish Bake/250/30/Cooking -7/Mac and Fish Bake/Mac and cheese that's been mixed with fish and baked./food///203/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_MacaroniSalad": "Macaroni Salad/200/45/Cooking -7/Macaroni Salad/Macaroni, mayonnaise, and seasonings./food///205/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Marmalade": "Marmalade/200/-300/Cooking -7/Marmalade/A fruit preserve made from citrus peels and sugar.////206/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_MashedPotatoes": "Mashed Potatoes/250/30/Cooking -7/Mashed Potatoes/Buttery mashed potatoes./food///207/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_MelonSalad": "Melon Salad/125/105/Cooking -7/Melon Salad/A fruit salad consisting of tasty melons./food/0 0 0 0 0 0 0 50 0 0 0 0/430/208/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_MoonshineCherries": "Moonshine Cherries/100/-300/Cooking -7/Moonshine Cherries/Drunken cherries./food///209/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_MushroomSoup": "Mushroom Soup/350/40/Cooking -7/Mushroom Soup/A salty mushroom soup./food///210/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Mustard": "Mustard/12/-300/Cooking -7/Mustard/A tangy condiment made from mustard seeds.////211/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_PB&JSandwich": "PB&J Sandwich/70/30/Cooking -7/PB&J Sandwich/The classic sandwich treat./food/1 0 0 0 1 0 0 0 0 0 0 0/480/212/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_PineapplePizza": "Pineapple Pizza/300/60/Cooking -7/Pineapple Pizza/Pizza with pineapple./food///213/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_PizzaRolls": "Pizza Rolls/250/55/Cooking -7/Pizza Rolls/Rolled pockets of pizza./food///214/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_PlowmansPlatter": "Plowman's Platter/320/80/Cooking -7/Plowman's Platter/A lunch platter similar to a cheese board./food/4 0 0 0 0 0 0 0 0 0 0 0/960/215/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_PotatoFries": "Potato Fries/175/52/Cooking -7/Potato Fries/Wedges of potato deep fried. A favorite snack./food///217/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_PotatoPancakes": "Potato Pancakes/115/36/Cooking -7/Potato Pancakes/Pancakes made with potatoes./food///218/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_PotatoSalad": "Potato Salad/150/45/Cooking -7/Potato Salad/A side dish staple./food///219/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_RefriedBeans": "Refried Beans/170/30/Cooking -7/Refried Beans/Savory beans that are often served with tacos./food///220/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_RicePilaf": "Rice Pilaf/215/30/Cooking -7/Rice Pilaf/Spicy and southern!/food///221/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_RoastedAlmonds": "Roasted Almonds/100/70/Cooking -7/Roasted Almonds/Tasty roasted almonds./food///222/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SalmonFillet": "Salmon Fillet/220/30/Cooking -7/Salmon Fillet/A whole fillet of a salmon grilled in butter./food///223/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SaltandVinegarChips": "Salt and Vinegar Chips/100/20/Cooking -7/Salt and Vinegar Chips/Thinly sliced potatoes seasoned with just a little pinch of salt./food///224/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SaltGrilledFish": "Salt-Grilled Fish/225/30/Cooking -7/Salt-Grilled Fish/A simple dish of grilled fish and sprinkled salt./food/0 1 0 0 0 0 0 0 0 0 0 0/400/225/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SauteedOnions": "Sauteed Onions/125/50/Cooking -7/Sauteed Onions/Often used as a side dish. Slimy, yet satisfying!/food///226/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SauteedVegetables": "Sauteed Vegetables/120/50/Cooking -7/Sauteed Vegetables/Hearty!/food///227/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SeaweedChips": "Seaweed Chips/125/20/Cooking -7/Seaweed Chips/Fried seaweed. It's crispy./food///228/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SmotheredWaffles": "Smothered Waffles/320/50/Cooking -7/Smothered Waffles/No tears, only dreams./food///229/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SoftPretzel": "Soft Pretzel/125/20/Cooking -7/Soft Pretzel/A large soft pretzel, brined and salted./food/0 0 0 0 0 0 0 0 0 0 1 0/540/230/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SourCream": "Sour Cream/120/-300/Cooking -7/Sour Cream/Soured milk used in cooking or as a condiment./food///231/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SpicyTrailMix": "Spicy Trail Mix/150/20/Cooking -7/Spicy Trail Mix/Trail mix for people who need a bit of pep in their step./food///232/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SpinachRavioli": "Spinach Ravioli/400/30/Cooking -7/Spinach Ravioli/A vegetarian ravioli that has a refreshing taste./food/3 0 0 0 0 0 0 0 0 0 0 0/840/233/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SpringSalad": "Spring Salad/260/45/Cooking -7/Spring Salad/A healthy alternative./food///234/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_StuffedPeppers": "Stuffed Peppers/220/80/Cooking -7/Stuffed Peppers/Bell peppers stuffed with cheese./food///235/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SweetPotatoCasserole": "Sweet Potato Casserole/250/30/Cooking -7/Sweet Potato Casserole/Sweet potatoes and sugar topped with marshmallows./food///236/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SweetPotatoFries": "Sweet Potato Fries/175/52/Cooking -7/Sweet Potato Fries/Like regular fries, only sweet./food///237/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_TomatoBasilSoup": "Tomato Basil Soup/230/40/Cooking -7/Tomato Basil Soup/A rich soup with a hint of basil./food/0 0 0 0 2 0 0 0 0 0 0 0/480/238/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_TortillaRollUps": "Tortilla Roll-Ups/150/30/Cooking -7/Tortilla Roll-Ups/A popular childhood snack./food/0 0 0 0 2 0 0 0 0 0 0 0/300/239/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_TropicalSalad": "Tropical Salad/110/80/Cooking -7/Tropical Salad/A medley of tropical fruits./food///240/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_TropicalTrailMix": "Tropical Trail Mix/150/20/Cooking -7/Tropical Trail Mix/A sweet trail mix popular in the Fern Islands./food///241/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Waffles": "Waffles/200/50/Cooking -7/Waffles/Square-shaped breakfast pastries./food///242/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_WasabiPeas": "Wasabi Peas/150/80/Cooking -7/Wasabi Peas/Dried peas that have been dusted in wasabi./food///243/Mods\\MizuLeo.MoreRecipes\\Objects",
-				
-				// international food
-				"MizuLeo.MoreRecipes_Arepas": "Arepas/200/20/Cooking -7/Arepas/Corn flour and cheese. Perfection!/food/0 0 0 0 1 0 0 40 0 0 0 0/780/312/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_BabaGhanoush": "Baba Ghanoush/210/85/Cooking -7/Baba Ghanoush/Roasted eggplant blended with tahini, olive oil, and seasonings./food///314/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CacioePepe": "Cacio e Pepe/325/30/Cooking -7/Cacio e Pepe/A traditional pasta with just three ingredients: cheese, salt, and pepper./food/0 0 0 0 1 0 0 0 0 0 2 0/300/315/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Ceviche": "Ceviche/220/45/Cooking -7/Ceviche/Fresh raw fish cured in citrus and spiced with peppers./food/0 2 0 0 0 0 0 0 0 0 0 0/480/316/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_ChipsandGuacamole": "Chips and Guacamole/120/54/Cooking -7/Chips and Guacamole/Pulped avocado with peppers and garlic./food///317/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_ChipsandSalsa": "Chips and Salsa/120/54/Cooking -7/Chips and Salsa/Salsa and chips, perfect for a party./food///318/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_ChocolateBananaCrepes": "Chocolate Banana Crepes/250/70/Cooking -7/Chocolate Banana Crepes/Hazelnut sauce and banana together in a crepe./food///319/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CoconutCurry": "Coconut Curry/350/60/Cooking -7/Coconut Curry/A creamy, milk-based curry that has a sweet flavor./food///320/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Colcannon": "Colcannon/200/30/Cooking -7/Colcannon/Mashed potatoes with a delightful crunch!/food///363/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CrabinOysterSauce": "Crab in Oyster Sauce/320/50/Cooking -7/Crab in Oyster Sauce/A whole crab cooked in an iconic sauce./food///321/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CrabRangoons": "Crab Rangoons/200/30/Cooking -7/Crab Rangoons/Shredded crab and cream cheese filling. It has a seafood flavor!/food/0 0 0 0 0 0 0 25 0 0 0 0/780/322/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CrackedConch": "Cracked Conch/250/30/Cooking -7/Cracked Conch/A deep-fried snack made with the meat of a shellfish./food///323/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Croissant": "Croissant/110/20/Cooking -7/Croissant/A flaky, crescent-shaped bread./food/0 0 2 0 0 0 0 0 0 1 0 0/660/324/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CurryPowder": "Curry Powder/100/-300/Cooking -7/Curry Powder/The integral mix of herbs and seasonings for dishes all across the world.////325/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Dolma": "Dolma/230/54/Cooking -7/Dolma/Grape leaves stuffed with rice and other fillings./food///326/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_EggyToast": "Eggy Toast/320/36/Cooking -7/Eggy Toast/Toast soaked in a milk and egg mixture and then fried in a pan. Top with powdered sugar and syrup!/food/0 0 0 0 0 0 0 0 0 0 2 0/480/187/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Falafel": "Falafel/200/32/Cooking -7/Falafel/Ground, deep fried chickpeas./food///327/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Farofa": "Farofa/130/30/Cooking -7/Farofa/A toasted mix of ground cassava and other veggies./food///328/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_FishAmokCurry": "Fish Amok Curry/450/60/Cooking -7/Fish Amok Curry/A curry with a mousse-like consistency from steaming!/food///329/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_FishandChips": "Fish and Chips/350/32/Cooking -7/Fish and Chips/Fried white fish and fries. /food///330/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_GreenPapayaSalad": "Green Papaya Salad/115/45/Cooking -7/Green Papaya Salad/Shredded unripe papaya with a salty, savory, sweet flavor./food///331/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Gumbo": "Gumbo/320/80/Cooking -7/Gumbo/A seafood stew that's exceptionally spicy./food/0 0 0 0 0 0 0 0 0 4 0 0/960/332/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Halloumi": "Halloumi/200/80/Cooking -7/Halloumi/Cheese grilled on a flame. It's squeaky!/food///333/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_HoneyWalnutShrimp": "Honey Walnut Shrimp/260/30/Cooking -7/Honey Walnut Shrimp/Shrimp drowned in honey and walnuts, served on rice./food///334/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_HoriatikiSalad": "Horiatiki Salad/110/45/Cooking -7/Horiatiki Salad/A refreshing salad made with lots of olives and dressed in vinegar./food///337/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_HotandSourSoup": "Hot and Sour Soup/250/90/Cooking -7/Hot and Sour Soup/A vinegar-based soup that's somewhat sour and somewhat spicy./food///335/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Hummus": "Hummus/210/85/Cooking -7/Hummus/Ground chickpeas. Often served with pita./food///336/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Meuniere": "Meunière/245/30/Cooking -7/Meunière/A fish grilled in butter./food///338/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_MintChutney": "Mint Chutney/200/-300/Cooking -7/Mint Chutney/A minced mint jelly.////339/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_MozzarellaSalad": "Mozzarella Salad/400/80/Cooking -7/Mozzarella Salad/It's a harmony of taste! You'll feel better after eating it, how bizarre./food///340/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Naan": "Naan/75/20/Cooking -7/Naan/A flat bread seasoned with garlic./food///341/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_NachosandCheese": "Nachos and Cheese/120/54/Cooking -7/Nachos and Cheese/Chips and gooey cheese./food///342/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_OysterSauce": "Oyster Sauce/200/-300/Cooking -7/Oyster Sauce/A sauce with a distinct briney flavor./food///343/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_PadThai": "Pad Thai/470/30/Cooking -7/Pad Thai/Stir-fried noodles and vegetables best made in a wok./food///344/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_PenneallArrabiatta": "Penne all'Arrabiatta/300/30/Cooking -7/Penne all'Arrabiatta/A traditional pasta made with very simple ingredients. It's spicy!/food/0 0 0 0 0 0 0 0 0 1 2 0/540/313/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Pierogi": "Pierogi/260/30/Cooking -7/Pierogi/Little pockets of savory goodness./food///345/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Pita": "Pita/75/20/Cooking -7/Pita/Flat bread that is somewhat crispy./food///346/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Pupusas": "Pupusas/200/20/Cooking -7/Pupusas/Corn flour and cheese. This one is stuffed with grilled cactus./food///347/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Quiche": "Quiche/325/70/Cooking -7/Quiche/It's an eggy pie!/food///348/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SaladRolls": "Salad Rolls/320/45/Cooking -7/Salad Rolls/A thin rice wrapper filled with spinach, shrimp, and rice./food///349/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Samosas": "Samosas/200/30/Cooking -7/Samosas/A fried or baked dish with a savory filling./food///350/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SesameSticks": "Sesame Sticks/175/-300/Cooking -7/Sesame Sticks/Ground sesame seeds formed into sticks.////351/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_ShrimpFriedRice": "Shrimp Fried Rice/370/30/Cooking -7/Shrimp Fried Rice/Shrimp and fried rice. Make in a wok for the best results!/food///352/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Skyr": "Skyr/225/70/Cooking -7/Skyr/Yogurt that's strained to give it a very tart flavor and creamy consistency./food///353/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SourFishSoup": "Sour Fish Soup/350/90/Cooking -7/Sour Fish Soup/Tangy and unique!/food///354/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Spatzle": "Spätzle/260/34/Cooking -7/Spätzle/An egg noodle dish./food///355/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SpringRolls": "Spring Rolls/240/32/Cooking -7/Spring Rolls/Vegetables wrapped in a wonton and deep-fried./food/0 0 0 0 0 2 0 0 0 0 0 0/900/356/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Steckerlfisch": "Steckerlfisch/200/34/Cooking -7/Steckerlfisch/Fish on a stick, not fish sticks!/food/0 1 0 0 0 0 0 0 0 0 0 0/300/357/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Succotash": "Succotash/270/45/Cooking -7/Succotash/Corn and beans mixed with tomatoes. A hearty salad./food/2 0 0 0 0 0 0 0 0 0 0 0/480/358/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SweetCreamCrepes": "Sweet Cream Crepes/120/70/Cooking -7/Sweet Cream Crepes/Crepes made with fruit and whipped cream./food///359/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Tahini": "Tahini/100/-300/Cooking -7/Tahini/Also known as ardeh. A condiment made from toasted ground hulled sesame seeds./food///360/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Tostones": "Tostones/125/34/Cooking -7/Tostones/Twice-fried plantain slices./food///361/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Tzatziki": "Tzatziki/150/-300/Cooking -7/Tzatziki/A tangy sauce!/food///362/Mods\\MizuLeo.MoreRecipes\\Objects",
-				
-				// japanese food
-				"MizuLeo.MoreRecipes_AvocadoEelRoll": "Avocado Eel Roll/220/40/Cooking -7/Avocado Eel Roll/Eel wrapped in seaweed and rice, topped with avocado./food///264/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_BonitoFlakes": "Bonito Flakes/100/-300/Cooking -7/Bonito Flakes/Thinly shaved flakes of dried tuna.////265/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CrabRoll": "Crab Roll/250/40/Cooking -7/Crab Roll/Imitation crab is for the weak./food///266/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CucumberRoll": "Cucumber Roll/220/40/Cooking -7/Cucumber Roll/It’s like a vegetarian maki roll./food///267/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Daifuku": "Daifuku/200/90/Cooking -7/Daifuku/Mochi with red bean and a strawberry./food///268/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_DashiStock": "Dashi Stock/165/34/Cooking -7/Dashi Stock/Stewed down dashi broth that's often used as a base for soup./food///270/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Dango": "Dango/100/70/Cooking -7/Dango/Mochi balls on a skewer./food/0 0 0 0 0 0 0 0 32 0 0 0/660/269/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_FriedLotusRoot": "Fried Lotus Root/220/32/Cooking -7/Fried Lotus Root/Sliced lotus root, fried with shrimp. It has an interesting shape./food///271/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_FriedRice": "Fried Rice/375/30/Cooking -7/Fried Rice/Rice fried under high heat with oil. Savory!/food///272/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_FriedTofu": "Fried Tofu/120/32/Cooking -7/Fried Tofu/Deep fried tofu. It has a nice texture./food///273/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Inarizushi": "Inarizushi/125/40/Cooking -7/Inarizushi/Sweet tofu sushi./food/0 0 0 0 2 0 0 25 0 0 0 0/660/274/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_KitsuneUdon": "Kitsune Udon/400/80/Cooking -7/Kitsune Udon/A bowl of comforting udon with tofu and spiral fish cakes./food///275/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_MelonPan": "Melon Pan/150/20/Cooking -7/Melon Pan/Despite its name, it's really just a sweet flavored bread./food///276/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_MisoRamen": "Miso Ramen/380/80/Cooking -7/Miso Ramen/Ramen in a miso broth./food///277/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_MisoSoup": "Miso Soup/150/40/Cooking -7/Miso Soup/A simple soup made from dashi./food/0 0 0 0 0 0 0 30 0 0 2 0/540/278/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Mochi": "Mochi/100/30/Cooking -7/Mochi/Made by pounding rice until it's sticky./food///279/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_MochiIceCream": "Mochi Ice Cream/150/30/Cooking -7/Mochi Ice Cream/Mochi incasing a morsel of ice cream./food///280/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Narutomaki": "Narutomaki/80/30/Cooking -7/Narutomaki/A fish cake. It's made from ground fish paste and often formed into fun shapes./food///281/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_NigiriSushiSet": "Nigiri Sushi Set/500/50/Cooking -7/Nigiri Sushi Set/A classic set of different fish on rice./food/0 3 0 0 0 0 0 50 0 0 0 0/960/282/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Oden": "Oden/300/30/Cooking -7/Oden/A one pot winter dish consisting of several ingredients./food///283/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Omurice": "Omurice/350/30/Cooking -7/Omurice/An omelet made with rice and topped with ketchup./food/0 0 0 0 0 0 0 0 0 0 3 0/660/284/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Onigiri": "Onigiri/50/20/Cooking -7/Onigiri/It's a rice ball. A popular snack for kids./food/0 0 0 0 0 0 0 0 0 0 0 1/300/285/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_RedBeanBun": "Red Bean Bun/200/70/Cooking -7/Red Bean Bun/A sweet but mild bun filled with bean paste./food///286/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SalmonSushi": "Salmon Sushi/150/40/Cooking -7/Salmon Sushi/Sushi made with salmon./food///287/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_ShoyuRamen": "Shoyu Ramen/380/80/Cooking -7/Shoyu Ramen/A savory soup with noodles and a soft-boiled egg./food///288/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_ShrimpTempura": "Shrimp Tempura/250/32/Cooking -7/Shrimp Tempura/Shrimp covered in panko crumbs and deep fried./food///289/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Soba": "Soba/300/80/Cooking -7/Soba/Buckwheat noodles served with a light broth./food///290/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Surimi": "Surimi/50/20/Cooking -7/Surimi/Minced fish that have been worked into a paste and formed./food///291/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SushiHandRoll": "Sushi Hand Roll/150/40/Cooking -7/Sushi Hand Roll/Seaweed, rice, cucumber, and fish./food/0 1 0 0 2 0 0 0 0 0 0 0/600/292/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Taiyaki": "Taiyaki/220/70/Cooking -7/Taiyaki/A fish-shaped pastry filled with red bean paste./food/0 0 2 0 0 0 0 0 0 0 0 0/480/293/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Takoyaki": "Takoyaki/250/34/Cooking -7/Takoyaki/Balls of fried batter and octopus, topped with mayonnaise and a savory sauce./food/0 0 0 0 3 0 0 0 0 0 0 0/900/294/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Tendon": "Tendon/320/88/Cooking -7/Tendon/A rice bowl with tempura on top./food/0 0 2 0 0 0 0 30 0 0 0 0/900/296/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Tofu": "Tofu/120/20/Cooking -7/Tofu/Made from soybean milk. Also known as bean curds./food///297/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_TunaSushi": "Tuna Sushi/175/40/Cooking -7/Tuna Sushi/Sushi made with tuna./food///298/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Udon": "Udon/350/80/Cooking -7/Udon/Thick wheat noodles in a hearty broth./food///299/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_UmeOnigiri": "Ume Onigiri/125/20/Cooking -7/Ume Onigiri/A rice ball with pickled plum inside./food/0 0 0 0 0 0 0 0 0 0 1 0/300/300/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_VegetableTempura": "Vegetable Tempura/250/34/Cooking -7/Vegetable Tempura/Deep fried vegetables./food///295/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Zarusoba": "Zarusoba/370/30/Cooking -7/Zarusoba/A chilled soba set./food///301/Mods\\MizuLeo.MoreRecipes\\Objects",
-				
-				// desserts
-				"MizuLeo.MoreRecipes_ApplePie": "Apple Pie/225/86/Cooking -7/Apple Pie/A delicious pie made with apples and cinnamon./food///48/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_AppleTurnover": "Apple Turnover/125/60/Cooking -7/Apple Cobbler/A pastry with apple filling./food/0 0 0 0 0 2 0 0 0 0 0 0/900/49/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_AutumnMuffin": "Autumn Muffin/200/60/Cooking -7/Autumn Muffin/A decadent muffin that's topped with powdered sugar./food///50/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_BakedApple": "Baked Apple/175/40/Cooking -7/Baked Apple/Simply pop an apple in the oven and bake it. Warm and soft!/food///51/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Baklava": "Baklava/350/60/Cooking -7/Baklava/Thinly layered pastry dough over honey and seasonal nuts./food/0 0 0 0 0 0 0 30 0 0 0 1/660/52/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_BananaBread": "Banana Bread/155/60/Cooking -7/Banana Bread/It’s rich and moist!/food///53/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_BreadPudding": "Bread Pudding/225/60/Cooking -7/Bread Pudding/A little slimy, but so sweet./food///54/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Brownie": "Brownie/150/60/Cooking -7/Brownie/A rich, chocolatey snack./food///55/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CakePops": "Cake Pops/125/40/Cooking -7/Cake Pops/Cake and icing rolled into a ball and dipped in chocolate!/food///118/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CandiedApple": "Candied Apple/75/36/Cooking -7/Candied Apple/An apple that has been saturated in sugar./food///57/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CandiedCherries": "Candied Cherries/125/36/Cooking -7/Candied Cherries/Cherries that have been saturated in sugar./food///58/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CandiedLemonPeel": "Candied Lemon Peel/125/36/Cooking -7/Candied Lemon Peel/Lemon peels that have been saturated in and dusted with sugar./food///59/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CandiedOrangePeel": "Candied Orange Peel/125/36/Cooking -7/Candied Orange Peel/Orange peels that have been saturated in and dusted with sugar./food///60/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CandiedPineapple": "Candied Pineapple/150/36/Cooking -7/Candied Pineapple/A pineapple that has been saturated in sugar./food///61/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Caramel": "Caramel/80/36/Cooking -7/Caramel/Buttery and sweet, it's commonly used in candies and treats./food///63/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CaramelApple": "Caramel Apple/150/50/Cooking -7/Caramel Apple/A sweet apple that's been dipped in hot caramel./food/0 0 0 0 0 0 0 0 0 0 0 1/300/64/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CaramelEgg": "Caramel Egg/125/40/Cooking -7/Caramel Egg/A chocolate egg sculpture with caramel within./food///65/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CarrotCake": "Carrot Cake/250/60/Cooking -7/Carrot Cake/A light and fluffy cake, it’s a spring treat./food///66/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CassavaCake": "Cassava Cake/150/60/Cooking -7/Cassava Cake/Delicious and custardy!/food///67/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Castella": "Castella/300/60/Cooking -7/Castella/A light and fluffy cake./food///56/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Cheesecake": "Cheesecake/380/60/Cooking -7/Cheesecake/Cream cheese beat into even creamier submission./food///68/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CherryPie": "Cherry Pie/225/86/Cooking -7/Cherry Pie/A pie crust filled with soft, gooey cherries./food///69/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Chocolate": "Chocolate/100/36/Cooking -7/Chocolate/Decadent!/food///70/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_ChocolateCoveredStrawberry": "Chocolate Covered Strawberry/150/50/Cooking -7/Chocolate Covered Strawberry/One step away from bliss!/food///71/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_ChocolatePudding": "Choocolate Pudding/110/50/Cooking -7/Chocolate Pudding/A childhood favorite./food///72/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CinnamonRoll": "Cinnamon Roll/250/50/Cooking -7/Cinnamon Roll/A swirled pastry filled with cinnamon and coverd in icing./food///73/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CoffeeCake": "Coffee Cake/225/60/Cooking -7/Coffee Cake/A light cake that's made with coffee./food///74/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CottonCandy": "Cotton Candy/50/50/Cooking -7/Cotton Candy/Spin sugar into a little cloud of heaven!/food///75/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CreamPuff": "Cream Puff/225/60/Cooking -7/Cream Puff/Pastries filled with a sweet cream./food///76/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Creamsicle": "Creamsicle/150/50/Cooking -7/Creamsicle/Ice cream with a chocolate shell./food/0 0 0 0 0 0 0 0 0 0 0 2/300/77/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CremeBrulee": "Crème Brûlée/260/60/Cooking -7/Crème Brûlée/A custardy desert with a crystalized sugar toping./food///78/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CrumbCake": "Crumb Cake/210/60/Cooking -7/Crumb Cake/A autumnal cake covered in sugary crumbs./food///79/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Donut": "Donut/225/60/Cooking -7/Donut/Mmm... donuts./food///80/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_FigTart": "Fig Tart/75/50/Cooking -7/Fig Tart/Simple snacks that beg you to eat more than one./food///81/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Flan": "Flan/200/86/Cooking -7/Flan/A custardy, caramel dessert./food/0 0 0 0 1 0 0 0 0 0 0 1/480/82/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_FriedSweetBanana": "Fried Sweet Banana/150/40/Cooking -7/Fried Sweet Banana/Sugared bananas, sauteéd in butter./food///83/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Fruitcake": "Fruitcake/250/60/Cooking -7/Fruitcake/A dense cake with bits of fruit./food///84/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Fudge": "Fudge/200/50/Cooking -7/Fudge/Try not to fudge it up./food///85/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Gingerbread": "Gingerbread/90/36/Cooking -7/Gingerbread/A festive bread that has a dense texture./food///86/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Gingersnap": "Gingersnap/90/36/Cooking -7/Gingersnap/A popular biscuit-based snack food, flavored with ginger and powdered sugar./food///87/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_GooseberryPie": "Gooseberry Pie/220/86/Cooking -7/Gooseberry Pie/A pie made from wild berries and topped with a streusel crumble./food///88/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_GrahamCracker": "Graham Cracker/100/36/Cooking -7/Graham Cracker/Just who is Graham anyways?/food///89/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_HardCandies": "Hard Candies/50/36/Cooking -7/Hard Candies/Sugary, sweet, and tart./food///62/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_HoneyCake": "Honey Cake/200/36/Cooking -7/Honey Cake/A pure honey cake./food///90/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Jello": "Jello/80/50/Cooking -7/Jello/Wobble./food/0 0 0 0 0 0 0 0 32 0 0 0/430/117/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_KeyLimePie": "Key Lime Pie/250/86/Cooking -7/Key Lime Pie/Tart and sour, with a dollop of whipped cream./food///91/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Ladyfinger": "Ladyfinger/90/36/Cooking -7/Ladyfinger/A sweet, bready cookie./food///92/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_LemonCake": "Lemon Cake/325/50/Cooking -7/Lemon Cake/A sweet and tart cake covered with a lemon glaze./food///93/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_LemonPie": "Lemon Pie/250/86/Cooking -7/Lemon Pie/Tart and sour, with a dollop of whipped cream./food///94/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Licorice": "Licorice/125/36/Cooking -7/Licorice/The twisty candy made from a licorice root./food/0 0 0 0 0 0 0 0 0 1 0 0/300/95/Mods\\MizuLeo.MoreRecipes\\Objects",	
-				"MizuLeo.MoreRecipes_Macaron": "Macaron/250/36/Cooking -7/Macaron/A light, almondy cookie with a sweet filling./food/0 0 0 0 0 0 0 0 0 0 0 2/780/96/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Marshmallow": "Marshmallow/50/36/Cooking -7/Marshmallow/In the words of the popular sci-fi character: I am preparing to toast a marshmelon./food///97/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Nougat": "Nougat/200/50/Cooking -7/Nougat/Light and sweet, made with pistachios./food///98/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Pavlova": "Pavlova/300/86/Cooking -7/Pavlova/An airy meringue topped with fruit./food///119/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_PeanutButterCups": "Peanut Butter Cups/150/36/Cooking -7/Peanut Butter Cups/You can never eat just one./food/0 0 0 0 0 0 0 0 0 1 0 0/400/99/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_PecanPie": "Pecan Pie/225/86/Cooking -7/Pecan Pie/A nutty pie with a glazed topping./food///100/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_PeppermintCandy": "Peppermint Candy/125/36/Cooking -7/Peppermint Candy/Iconic!/food///101/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_PoachedPear": "Poached Pear/200/50/Cooking -7/Poached Pear/Peeled pears drowned in honey./food///102/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Popsicle": "Popsicle/80/50/Cooking -7/Popsicle/Different flavored fruit juice frozen on a stick./food///103/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_RaspberryCobbler": "Raspberry Cobbler/260/70/Cooking -7/Raspberry Cobbler/A tart flavored cobbler./food///104/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_RaspberryTart": "Raspberry Tart/75/50/Cooking -7/Raspberry Tart/A raspberry filled tart./food///105/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Smore": "S'more/200/50/Cooking -7/S'more/Because you always want additional ones./food/0 0 0 0 0 0 0 0 0 0 2 1/480/106/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Sachertorte": "Sachertorte/400/100/Cooking -7/Sachertorte/A decedent chocolate confection./food///107/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SandwichCookie": "Sandwich Cookie/210/36/Cooking -7/Sandwich Cookie/Recognizable chocolate cookies with a cream filling./food///108/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Scone": "Scone/175/70/Cooking -7/Scone/A fruit flavored pastry./food///109/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Snickerdoodle": "Snickerdoodle/130/36/Cooking -7/Snickerdoodle/A light, somewhat cinnamon-flavored cookie./food///110/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Souffle": "Soufflé/275/70/Cooking -7/Soufflé/A lemon desert that puffs up when cooked./food///111/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Taffy": "Taffy/50/36/Cooking -7/Taffy/Chewy./food///112/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Tiramisu": "Tiramisu/265/70/Cooking -7/Tiramisu/A cake made with coffee drenched cookies./food///113/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_VanillaPudding": "Vanilla Pudding/185/50/Cooking -7/Vanilla Pudding/A childhood favorite./food///114/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_WhiskeyCake": "Whiskey Cake/390/70/Cooking -7/Whiskey Cake/A sweet cake that has as rich flavor./food///115/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_WhiteChocolate": "White Chocolate/180/36/Cooking -7/White Chocolate/Chocolate made from cocoa butter./food///116/Mods\\MizuLeo.MoreRecipes\\Objects",
-				
-				// alcohol
-				"MizuLeo.MoreRecipes_Aviation": "Aviation/265/20/Cooking -7/Aviation/Please place your tray tables in the upright and locked position. Drink in moderation./drink///1/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Bellini": "Bellini/200/25/Cooking -7/Bellini/A mixture of sparkling wine and peach purée or nectar. Drink in moderation./drink///2/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_BlackJunimo": "Black Junimo/210/20/Cooking -7/Black Junimo/Five parts vodka to two parts coffee liqueur. Drink in moderation./drink///3/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_BloodyMary": "Bloody Mary/220/25/Cooking -7/Bloody Mary/Don't say it more than once. Drink in moderation./drink///4/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_BlueHurricane": "Blue Hurricane/400/30/Cooking -7/BlueHurricane/You're in the eye of the storm now. Drink in moderation./drink///5/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Cosmopolitan": "Cosmopolitan/350/25/Cooking -7/Cosmopolitan/A cocktail made with vodka, cranberry juice, and freshly squeezed or sweetened lime juice. Drink in moderation./drink///6/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Daiquiri": "Daiquiri/275/30/Cooking -7/Daiquiri/A sweet drink of rum and fruit. Drink in moderation./drink///7/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_DeathintheAfternoon": "Death in the Afternoon/250/20/Cooking -7/Death in the Afternoon/Also called the Hemingway, it has an opalescent green milkiness. Drink in moderation./drink///8/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_FernIslandIcedTea": "Fern Island Iced Tea/450/3/Cooking -7/Fern Island Iced Tea/You mean there's no tea in this!? Drink in moderation./drink///11/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_FourHorsemen": "Four Horsemen/350/3/Cooking -7/Four Horsemen/Death, war, famine... oh, you're drunk. Drink in strict moderation./drink///9/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_GinandTonic": "Gin and Tonic/225/20/Cooking -7/Gin and Tonic/One part gin to one part tonic. Drink in moderation./drink///10/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_GotoroMule": "Gotoro Mule/300/20/Cooking -7/Gotoro Mule/Icy vodka, ginger, and beer. Served in a copper mug. Drink in moderation./drink///12/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_GreenJunimo": "Green Junimo/175/20/Cooking -7/Green Junimo/Like a black or white junimo, but made with absinthe. Drink in moderation./drink///13/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_HardEggnog": "Hard Eggnog/300/25/Cooking -7/Hard Eggnog/Festive! Drink in moderation./drink///14/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_HardIcedTea": "Hard Iced Tea/300/20/Cooking -7/Hard Iced Tea/...but there's tea in this one, right? Drink in moderation./drink///15/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_JelloShot": "Jello Shot/225/3/Cooking -7/Jello Shot/Jello and alcohol, what a mix! Drink in moderation./drink///40/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_LemonChuhai": "Lemon Chuhai/250/25/Cooking -7/Lemon Chuhai/A highball with a splash of lemon. Drink in moderation./drink///16/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_MaiTai": "Mai Tai/300/30/Cooking -7/Mai Tai/Your tai, his tai, her tai, everybody's tai! Drink in moderation./drink///17/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Margarita": "Margarita/250/30/Cooking -7/Margarita/One margarita, two margarita, three margarita, floor! Drink in moderation./drink///18/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Martini": "Martini/225/20/Cooking -7/Martini/Shaken, not stirred. Drink in moderation./drink///19/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Mimosa": "Mimosa/200/30/Cooking -7/Mimosa/Here's my advice: have a little faith and, if that doesn't work, have a lot of mimosas. Drink in moderation./drink///20/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_MintJulep": "Mint Julep/270/20/Cooking -7/Mint Julep/My, my, I do declare! Drink in moderation./drink///21/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Mojito": "Mojito/350/20/Cooking -7/Mojito/What? They said not to drink the water. Drink in moderation./drink///22/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Mudslide": "Mudslide/250/20/Cooking -7/Mudslide/A dessert cocktail with a chocolatey, creamy flavor. Drink in moderation./drink///23/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Negroni": "Negroni/375/20/Cooking -7/Negroni/Gin and sweet vermouth on the rocks. Drink in moderation./drink///24/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_NightontheBeach": "Night on the Beach/400/30/Cooking -7/Night on the Beach/A fruity, tropical beverage. Drink in moderation./drink///25/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_OldFashioned": "Old Fashioned/375/20/Cooking -7/Old Fashioned/Who are you calling old fashioned? Drink in moderation./drink///26/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_OolongChuhai": "Oolong Chuhai/200/25/Cooking -7/Oolong Chuhai/A highball with a splash of oolong tea. Drink in moderation./drink///27/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_PinaColada": "Piña Colada/300/30/Cooking -7/Piña Colada/If you like getting caught in the rain... Drink in moderation./drink///28/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_RumandCola": "Rum and Cola/225/20/Cooking -7/Rum and Cola/Rum with a splash of soda. Drink in moderation./drink///29/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Sangria": "Sangria/300/25/Cooking -7/Sangria/Want a little bit of fruit with that wine? Drink in moderation./drink///30/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Screwdriver": "Screwdriver/250/25/Cooking -7/Screwdriver/Please don't operate heavy machinery under the influence. Drink in moderation./drink///31/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Snakebite": "Snakebite/250/20/Cooking -7/Snakebite/Don't try to suck out the poison. Drink in moderation./drink///32/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Spritz": "Spritz/350/25/Cooking -7/Spritz/Wine with a splash of bitter orange flavor. Drink in moderation./drink///33/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Tamagozake": "Tamagozaké/275/25/Cooking -7/Tamagozaké/A drink consisting of heated saké, sugar and a raw egg. Drink in moderation./drink///34/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_TequilaSunrise": "Tequila Sunrise/250/30/Cooking -7/Tequila Sunrise/Drink enough of these in the evening and you'll have a tequila sunrise! Drink in moderation./drink///35/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_TheLastWord": "The Last Word/340/20/Cooking -7/The Last Word/Who gets the last word? Drink in moderation./drink///36/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_WhiskeySour": "Whiskey Sour/250/20/Cooking -7/Whiskey Sour/Whiskey with the tart addition of cherries and citrus. Drink in moderation./drink///37/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_WhiteJunimo": "White Junimo/225/20/Cooking -7/White Junimo/Five parts vodka to two parts coffee liqueur. A splash of milk. Drink in moderation./drink///38/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_ZuzuCity": "Zuzu City/265/20/Cooking -7/Zuzu City/Whiskey with sweet accents. Made popular in the city. Drink in moderation./drink///39/Mods\\MizuLeo.MoreRecipes\\Objects",
-				
-				// drinks
-				"MizuLeo.MoreRecipes_AppleCider": "Apple Cider/200/25/Cooking -7/Apple Cider/A bubbly soda with a bright apple flavor./drink///120/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_AutumnalTea": "Autumnal Tea/220/5/Cooking -7/Autumnal Tea/A warm cup of tea that reminds you of fall./drink///121/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_BarleyTea": "Barley Tea/120/5/Cooking -7/Barley Tea/Also known as mugicha./drink///122/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_BerryFusionTea": "Berry Fusion Tea/220/5/Cooking -7/Berry Fusion Tea/Infused with cross-season flavors; it's worth the wait!/drink///123/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_BlackTea": "Black Tea/125/5/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 30 0 0 0 0/360/124/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_BlueMistTea": "Blue Mist Tea/150/5/Cooking -7/Blue Mist Tea/A calming tea recipe from a far away valley./drink///125/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_BobaTea": "Boba Tea/370/20/Cooking -7/Boba Tea/A sweet flavored milk tea with tapioca pearls./drink/0 0 0 0 0 0 0 0 64 0 0 0/960/126/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_BreakfastTea": "Breakfast Tea/230/5/Cooking -7/Breakfast Tea/A popular, sugared tea./drink/0 0 0 0 0 0 0 30 0 0 0 0/360/127/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CamelliaTea": "Camellia Tea/120/5/Cooking -7/Camellia Tea/A relaxing tea made from camellia petals./drink///128/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_ChaiTea": "Chai Tea/225/5/Cooking -7/Chai Tea/A cinnamon-y tea that's rich and creamy./drink/0 0 0 0 0 0 0 30 0 0 0 0/360/129/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_ChamomileTea": "Chamomile Tea/120/5/Cooking -7/Chamomile Tea/An herbal tea brewed from chamomile./drink///130/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_CranberryPomegranateTea": "Cranberry Pomegranate Tea/255/5/Cooking -7/Cranberry Pomegranate Tea/A fruity tea with the tartness of a pomegranate./drink///131/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_DandelionTea": "Dandelion Tea/135/5/Cooking -7/Dandelion Tea/The fresh dandelion in this rejuvenates your senses./drink///132/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_EarlGreyTea": "Earl Grey Tea/200/5/Cooking -7/Earl Grey Tea/Tea. Earl Grey. Hot./drink/0 0 0 0 0 0 0 30 0 0 0 0/360/133/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Eggnog": "Eggnog/300/25/Cooking -7/Eggnog/Fun fact, they're not all alcoholic./drink/0 0 0 0 0 0 0 0 0 0 2 0/480/134/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_EstivalTea": "Estival Tea/220/5/Cooking -7/Estival Tea/A warm up of tea that reminds you of summer./drink///135/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_FruitTea": "Fruit Tea/250/20/Cooking -7/Fruit Tea/A sweet tea with fruit notes./drink///136/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_HibernalTea": "Hibernal Tea/200/5/Cooking -7/Hibernal Tea/A warm up of tea that reminds you of winter./drink///137/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Horchata": "Horchata/175/25/Cooking -7/Horchata/A milk and rice blend with a nutty flavor./drink///138/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_JasmineTea": "Jasmine Tea/125/5/Cooking -7/Jasmine Tea/Tea made from the petals of a jasmine flower./drink///139/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_LavenderMilkTea": "Lavender Milk Tea/370/5/Cooking -7/Lavender Milk Tea/A creamy tea made milk and lavender./drink///140/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_LemonTea": "Lemon Tea/230/5/Cooking -7/Lemon Tea/Citrusy and warm, it's good on a sore throat./drink///141/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Matcha": "Matcha/400/5/Cooking -7/Matcha/A mild brew with aged leaves. Tastes great!/drink/0 0 0 0 0 0 0 30 0 0 0 0/360/142/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_MilkTea": "Milk Tea/270/5/Cooking -7/Milk Tea/A sweet flavored tea mixed with milk or cream./drink///143/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_Milkshake": "Milkshake/250/25/Cooking -7/Milkshake/Ice cream and milk mixed together with whipped cream and a cherry./drink/0 0 0 0 0 0 0 0 0 2 0 0/900/144/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_MintTea": "Mint Tea/150/5/Cooking -7/Mint Tea/A cooling and minty beverage./drink///145/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_OolongTea": "Oolong Tea/150/5/Cooking -7/Oolong Tea/A bit between a green and black tea, the leaves are shriveled./drink/0 0 0 0 0 0 0 30 0 0 0 0/360/146/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_RoseTea": "Rose Tea/200/5/Cooking -7/Rose Tea/Rose petals and hips make this floral tea have a distinct flavor./drink///147/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SingleShotEspresso": "Single Shot Espresso/300/2/Cooking -7/Single Shot Espresso/Very strong coffee!/drink/0 0 0 0 0 0 0 0 0 1 0 0/180/148/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SouthernSweetTea": "Southern Sweet Tea/200/5/Cooking -7/Southern Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 0 0 0 0 0 30 0 0 0 0/360/149/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SpicedTea": "Spiced Tea/225/5/Cooking -7/Spiced Tea/A warming tea that's good in cold weather./drink///150/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_StrawberryGrapefruitTea": "Strawberry Grapefruit Tea/220/5/Cooking -7/Strawberry Grapefruit Tea/Orange and peach flavors mesh well in this fruity tea./drink///151/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_SunTea": "Sun Tea/1200/25/Cooking -7/Sun Tea/Black tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 0 0 0/360/152/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_VernalTea": "Vernal Tea/0/255/Cooking -7/Vernal Tea/A warm up of tea that reminds you of spring./drink///153/Mods\\MizuLeo.MoreRecipes\\Objects",
-				"MizuLeo.MoreRecipes_WhiteTea": "White Tea/75/5/Cooking -7/White Tea/A light brew of young tea leaves, it has a fresh flavor./drink/0 0 0 0 0 0 0 30 0 0 0 0/360/154/Mods\\MizuLeo.MoreRecipes\\Objects",
-				
-				// purchasable
-				"MizuLeo.MoreRecipes_ClubSoda": "Club Soda/25/5/Basic/Club Soda/A bubbly seltzer used to mix drinks./drink///0/Mods\\MizuLeo.MoreRecipes\\Objects"
+    "Changes": 
+	[
+        // add item
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+			// food
+				"MizuLeo.MoreRecipes_AvocadoToast": {
+					"Name": "Avocado Toast",
+					"DisplayName": "Avocado Toast",
+					"Description": "You just don't understand it!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 300,
+
+					"Edibility": 50,
+					"Buff": {
+						"Duration": 430,
+						"CustomAttributes": {
+							"LuckLevel": 2
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 168
+				},
+
+				"MizuLeo.MoreRecipes_BakedBeans": {
+					"Name": "Baked Beans",
+					"DisplayName": "Baked Beans",
+					"Description": "Hearty beans cooked to be slightly sweet.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 225,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 169
+				},
+
+				"MizuLeo.MoreRecipes_BakedPotato": {
+					"Name": "Baked Potato",
+					"DisplayName": "Baked Potato",
+					"Description": "A potato, roasted and covered in butter.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 120,
+
+					"Edibility": 54,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 170
+				},
+
+				"MizuLeo.MoreRecipes_BakedSweetPotato": {
+					"Name": "Baked Sweet Potato",
+					"DisplayName": "Baked Sweet Potato",
+					"Description": "A simple baked sweet potato. Tasty on a cold day!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 90,
+
+					"Edibility": 50,
+					"Buff": {
+						"Duration": 300,
+						"CustomAttributes": {
+							"ForagingLevel": 1
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 171
+				},
+
+				"MizuLeo.MoreRecipes_Biscuit": {
+					"Name": "Biscuit",
+					"DisplayName": "Biscuit",
+					"Description": "A flour-based bread with a firm crust and a soft interior.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 172
+				},
+
+				"MizuLeo.MoreRecipes_BroccoliandCheese": {
+					"Name": "Broccoli and Cheese",
+					"DisplayName": "Broccoli and Cheese",
+					"Description": "Steamed broccoli covered in gooey cheese.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 90,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 173
+				},
+
+				"MizuLeo.MoreRecipes_Broth": {
+					"Name": "Broth",
+					"DisplayName": "Broth",
+					"Description": "Standard vegetable broth.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 175,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 174
+				},
+
+				"MizuLeo.MoreRecipes_BrownSugar": {
+					"Name": "Brown Sugar",
+					"DisplayName": "Brown Sugar",
+					"Description": "It’s plain sugar mixed with molasses.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 75,
+
+					"Edibility": 10,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 175
+				},
+
+				"MizuLeo.MoreRecipes_ButternutSquashSoup": {
+					"Name": "Butternut Squash Soup",
+					"DisplayName": "Butternut Squash Soup",
+					"Description": "A buttery smooth soup made from squash and vegetables.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 260,
+
+					"Edibility": 34,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 176
+				},
+
+				"MizuLeo.MoreRecipes_CeleryandPeanutButter": {
+					"Name": "Celery and Peanut Butter",
+					"DisplayName": "Celery and Peanut Butter",
+					"Description": "An easy snack that’s light but savory.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 50,
+
+					"Edibility": 20,
+					"Buff": {
+						"Duration": 480,
+						"CustomAttributes": {
+							"Attack": 2
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 177
+				},
+
+				"MizuLeo.MoreRecipes_CheeseBoard": {
+					"Name": "Cheese Board",
+					"DisplayName": "Cheese Board",
+					"Description": "A perfect party platter!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 320,
+
+					"Edibility": 50,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 178
+				},
+
+				"MizuLeo.MoreRecipes_CheeseFries": {
+					"Name": "Cheese Fries",
+					"DisplayName": "Cheese Fries",
+					"Description": "A basket of fries drenched in cheese!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 175,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 179
+				},
+
+				"MizuLeo.MoreRecipes_CheesePuffs": {
+					"Name": "Cheese Puffs",
+					"DisplayName": "Cheese Puffs",
+					"Description": "Don't eat too many, they'll turn your fingers orange.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 180
+				},
+
+				"MizuLeo.MoreRecipes_ChefSalad": {
+					"Name": "Chef Salad",
+					"DisplayName": "Chef Salad",
+					"Description": "The chef’s choice of salads.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 110,
+
+					"Edibility": 45,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 181
+				},
+
+				"MizuLeo.MoreRecipes_ClassicTrailMix": {
+					"Name": "Classic Trail Mix",
+					"DisplayName": "Classic Trail Mix",
+					"Description": "The staple recipe for trail mix.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 182
+				},
+
+				"MizuLeo.MoreRecipes_Cornbread": {
+					"Name": "Cornbread",
+					"DisplayName": "Cornbread",
+					"Description": "Bread made from corn flour.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 155,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 183
+				},
+
+				"MizuLeo.MoreRecipes_CreamCheese": {
+					"Name": "Cream Cheese",
+					"DisplayName": "Cream Cheese",
+					"Description": "Creamed milk. A common topping and filling product.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 80,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 184
+				},
+
+				"MizuLeo.MoreRecipes_CucumberSandwich": {
+					"Name": "Cucumber Sandwich",
+					"DisplayName": "Cucumber Sandwich",
+					"Description": "A plain, refreshing tea sandwich.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 65,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 185
+				},
+
+				"MizuLeo.MoreRecipes_DeviledEggs": {
+					"Name": "Deviled Eggs",
+					"DisplayName": "Deviled Eggs",
+					"Description": "Get thee into my mouth.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 350,
+
+					"Edibility": 45,
+					"Buff": {
+						"Duration": 600,
+						"CustomAttributes": {
+							"LuckLevel": 1,
+							"MaxStamina": 50
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 186
+				},
+
+				"MizuLeo.MoreRecipes_FriedGreenTomatoes": {
+					"Name": "Fried Green Tomatoes",
+					"DisplayName": "Fried Green Tomatoes",
+					"Description": "Young tomatoes, battered and fried.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 32,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 188
+				},
+
+				"MizuLeo.MoreRecipes_FriedOkra": {
+					"Name": "Fried Okra",
+					"DisplayName": "Fried Okra",
+					"Description": "Deep-fried okra. Crispy on the outside, moist within.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 32,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 189
+				},
+
+				"MizuLeo.MoreRecipes_FruitBar": {
+					"Name": "Fruit Bar",
+					"DisplayName": "Fruit Bar",
+					"Description": "A fruit flavored field snack.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 110,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 190
+				},
+
+				"MizuLeo.MoreRecipes_FruitLeather": {
+					"Name": "Fruit Leather",
+					"DisplayName": "Fruit Leather",
+					"Description": "A flat sheet of fruit pulp. It's sweet and chewy.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 80,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 191
+				},
+
+				"MizuLeo.MoreRecipes_GarlicBread": {
+					"Name": "Garlic Bread",
+					"DisplayName": "Garlic Bread",
+					"Description": "Buttery garlic bread. Serve it with dinner.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 192
+				},
+
+				"MizuLeo.MoreRecipes_GreenBeanCasserole": {
+					"Name": "Green Bean Casserole",
+					"DisplayName": "Green Bean Casserole",
+					"Description": "A baked casserole dish topped with crunchy onions.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 193
+				},
+
+				"MizuLeo.MoreRecipes_GrilledCheese": {
+					"Name": "Grilled Cheese",
+					"DisplayName": "Grilled Cheese",
+					"Description": "The classic sandwich.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 194
+				},
+
+				"MizuLeo.MoreRecipes_GrilledZucchini": {
+					"Name": "Grilled Zucchini",
+					"DisplayName": "Grilled Zucchini",
+					"Description": "Zucchini roasted to perfection.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 45,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 195
+				},
+
+				"MizuLeo.MoreRecipes_HardBoiledEgg": {
+					"Name": "Hard Boiled Egg",
+					"DisplayName": "Hard Boiled Egg",
+					"Description": "Eggs boiled in water. Eat them as a meal or a snack.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 120,
+
+					"Edibility": 20,
+					"Buff": {
+						"Duration": 360,
+						"CustomAttributes": {
+							"MiningLevel": 1
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 196
+				},
+
+				"MizuLeo.MoreRecipes_HerbCheese": {
+					"Name": "Herb Cheese",
+					"DisplayName": "Herb Cheese",
+					"Description": "A soft cheese with numerous herbs mixed into it.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 220,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 197
+				},
+
+				"MizuLeo.MoreRecipes_HomemadePopcorn": {
+					"Name": "Homemade Popcorn",
+					"DisplayName": "Homemade Popcorn",
+					"Description": "Corn kernels fried until they popped.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 100,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 216
+				},
+
+				"MizuLeo.MoreRecipes_HoneyButter": {
+					"Name": "Honey Butter",
+					"DisplayName": "Honey Butter",
+					"Description": "A sweet butter and honey mixture.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 100,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 198
+				},
+
+				"MizuLeo.MoreRecipes_HotSauce": {
+					"Name": "Hot Sauce",
+					"DisplayName": "Hot Sauce",
+					"Description": "A spicy sauce.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 300,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 199
+				},
+
+				"MizuLeo.MoreRecipes_JalapenoCornbread": {
+					"Name": "Jalapeño Cornbread",
+					"DisplayName": "Jalapeño Cornbread",
+					"Description": "It's a trap! Who thought this was a good idea?",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 200
+				},
+
+				"MizuLeo.MoreRecipes_JohnnyCakes": {
+					"Name": "Johnny Cakes",
+					"DisplayName": "Johnny Cakes",
+					"Description": "Similar to pancakes, only corn-based.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 175,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 201
+				},
+
+				"MizuLeo.MoreRecipes_Ketchup": {
+					"Name": "Ketchup",
+					"DisplayName": "Ketchup",
+					"Description": "A paste of tomatoes sweetened with sugar.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 12,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 202
+				},
+
+				"MizuLeo.MoreRecipes_MacandCheese": {
+					"Name": "Mac and Cheese",
+					"DisplayName": "Mac and Cheese",
+					"Description": "Gooey and cheesy!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 220,
+
+					"Edibility": 30,
+					"Buff": {
+						"Duration": 660,
+						"CustomAttributes": {
+							"Defense": 2
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 204
+				},
+
+				"MizuLeo.MoreRecipes_MacandFishBake": {
+					"Name": "Mac and Fish Bake",
+					"DisplayName": "Mac and Fish Bake",
+					"Description": "Mac and cheese that's been mixed with fish and baked.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 203
+				},
+
+				"MizuLeo.MoreRecipes_MacaroniSalad": {
+					"Name": "Macaroni Salad",
+					"DisplayName": "Macaroni Salad",
+					"Description": "Macaroni, mayonnaise, and seasonings.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 45,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 205
+				},
+
+				"MizuLeo.MoreRecipes_Marmalade": {
+					"Name": "Marmalade",
+					"DisplayName": "Marmalade",
+					"Description": "A fruit preserve made from citrus peels and sugar.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 206
+				},
+
+				"MizuLeo.MoreRecipes_MashedPotatoes": {
+					"Name": "Mashed Potatoes",
+					"DisplayName": "Mashed Potatoes",
+					"Description": "Buttery mashed potatoes.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 207
+				},
+
+				"MizuLeo.MoreRecipes_MelonSalad": {
+					"Name": "Melon Salad",
+					"DisplayName": "Melon Salad",
+					"Description": "A fruit salad consisting of tasty melons.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 125,
+
+					"Edibility": 105,
+					"Buff": {
+						"Duration": 430,
+						"CustomAttributes": {
+							"MaxStamina": 50
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 208
+				},
+
+				"MizuLeo.MoreRecipes_MoonshineCherries": {
+					"Name": "Moonshine Cherries",
+					"DisplayName": "Moonshine Cherries",
+					"Description": "Drunken cherries.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 100,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 209
+				},
+
+				"MizuLeo.MoreRecipes_MushroomSoup": {
+					"Name": "Mushroom Soup",
+					"DisplayName": "Mushroom Soup",
+					"Description": "A salty mushroom soup.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 350,
+
+					"Edibility": 40,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 210
+				},
+
+				"MizuLeo.MoreRecipes_Mustard": {
+					"Name": "Mustard",
+					"DisplayName": "Mustard",
+					"Description": "A tangy condiment made from mustard seeds.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 12,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 211
+				},
+
+				"MizuLeo.MoreRecipes_PB&JSandwich": {
+					"Name": "PB&J Sandwich",
+					"DisplayName": "PB&J Sandwich",
+					"Description": "The classic sandwich treat.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 70,
+
+					"Edibility": 30,
+					"Buff": {
+						"Duration": 480,
+						"CustomAttributes": {
+							"FarmingLevel": 1,
+							"LuckLevel": 1
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 212
+				},
+
+				"MizuLeo.MoreRecipes_PineapplePizza": {
+					"Name": "Pineapple Pizza",
+					"DisplayName": "Pineapple Pizza",
+					"Description": "Pizza with pineapple.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 300,
+
+					"Edibility": 60,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 213
+				},
+
+				"MizuLeo.MoreRecipes_PizzaRolls": {
+					"Name": "Pizza Rolls",
+					"DisplayName": "Pizza Rolls",
+					"Description": "Rolled pockets of pizza.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 55,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 214
+				},
+
+				"MizuLeo.MoreRecipes_PlowmansPlatter": {
+					"Name": "Plowman's Platter",
+					"DisplayName": "Plowman's Platter",
+					"Description": "A lunch platter similar to a cheese board.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 320,
+
+					"Edibility": 80,
+					"Buff": {
+						"Duration": 960,
+						"CustomAttributes": {
+							"FarmingLevel": 4
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 215
+				},
+
+				"MizuLeo.MoreRecipes_PotatoFries": {
+					"Name": "Potato Fries",
+					"DisplayName": "Potato Fries",
+					"Description": "Wedges of potato deep-fried. A favorite snack.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 175,
+
+					"Edibility": 52,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 217
+				},
+
+				"MizuLeo.MoreRecipes_PotatoPancakes": {
+					"Name": "Potato Pancakes",
+					"DisplayName": "Potato Pancakes",
+					"Description": "Pancakes made with potatoes.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 115,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 218
+				},
+
+				"MizuLeo.MoreRecipes_PotatoSalad": {
+					"Name": "Potato Salad",
+					"DisplayName": "Potato Salad",
+					"Description": "A side dish staple.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 45,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 219
+				},
+
+				"MizuLeo.MoreRecipes_RefriedBeans": {
+					"Name": "Refried Beans",
+					"DisplayName": "Refried Beans",
+					"Description": "Savory beans that are often served with tacos.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 170,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 220
+				},
+
+				"MizuLeo.MoreRecipes_RicePilaf": {
+					"Name": "Rice Pilaf",
+					"DisplayName": "Rice Pilaf",
+					"Description": "Spicy and southern!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 215,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 221
+				},
+
+				"MizuLeo.MoreRecipes_RoastedAlmonds": {
+					"Name": "Roasted Almonds",
+					"DisplayName": "Roasted Almonds",
+					"Description": "Tasty roasted almonds.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 100,
+
+					"Edibility": 70,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 222
+				},
+
+				"MizuLeo.MoreRecipes_SalmonFillet": {
+					"Name": "Salmon Fillet",
+					"DisplayName": "Salmon Fillet",
+					"Description": "A whole fillet of a salmon grilled in butter.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 220,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 223
+				},
+
+				"MizuLeo.MoreRecipes_SaltandVinegarChips": {
+					"Name": "Salt and Vinegar Chips",
+					"DisplayName": "Salt and Vinegar Chips",
+					"Description": "Thinly sliced potatoes seasoned with just a little pinch of salt.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 100,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 224
+				},
+
+				"MizuLeo.MoreRecipes_SaltGrilledFish": {
+					"Name": "Salt-Grilled Fish",
+					"DisplayName": "Salt-Grilled Fish",
+					"Description": "A simple dish of grilled fish and sprinkled salt.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 225,
+
+					"Edibility": 30,
+					"Buff": {
+						"Duration": 400,
+						"CustomAttributes": {
+							"FishingLevel": 1
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 225
+				},
+
+				"MizuLeo.MoreRecipes_SauteedOnions": {
+					"Name": "Sauteed Onions",
+					"DisplayName": "Sauteed Onions",
+					"Description": "Often used as a side dish. Slimy, yet satisfying!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 125,
+
+					"Edibility": 50,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 226
+				},
+
+				"MizuLeo.MoreRecipes_SauteedVegetables": {
+					"Name": "Sauteed Vegetables",
+					"DisplayName": "Sauteed Vegetables",
+					"Description": "Hearty!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 120,
+
+					"Edibility": 50,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 227
+				},
+
+				"MizuLeo.MoreRecipes_SeaweedChips": {
+					"Name": "Seaweed Chips",
+					"DisplayName": "Seaweed Chips",
+					"Description": "Fried seaweed. It's crispy.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 125,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 228
+				},
+
+				"MizuLeo.MoreRecipes_SmotheredWaffles": {
+					"Name": "Smothered Waffles",
+					"DisplayName": "Smothered Waffles",
+					"Description": "No tears, only dreams.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 320,
+
+					"Edibility": 50,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 229
+				},
+
+				"MizuLeo.MoreRecipes_SoftPretzel": {
+					"Name": "Soft Pretzel",
+					"DisplayName": "Soft Pretzel",
+					"Description": "A large soft pretzel, brined and salted.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 125,
+
+					"Edibility": 20,
+					"Buff": {
+						"Duration": 540,
+						"CustomAttributes": {
+							"Defense": 1
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 230
+				},
+
+				"MizuLeo.MoreRecipes_SourCream": {
+					"Name": "Sour Cream",
+					"DisplayName": "Sour Cream",
+					"Description": "Soured milk used in cooking or as a condiment.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 120,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 231
+				},
+
+				"MizuLeo.MoreRecipes_SpicyTrailMix": {
+					"Name": "Spicy Trail Mix",
+					"DisplayName": "Spicy Trail Mix",
+					"Description": "Trail mix for people who need a bit of pep in their step.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 232
+				},
+
+				"MizuLeo.MoreRecipes_SpinachRavioli": {
+					"Name": "Spinach Ravioli",
+					"DisplayName": "Spinach Ravioli",
+					"Description": "A vegetarian ravioli that has a refreshing taste.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 400,
+
+					"Edibility": 30,
+					"Buff": {
+						"Duration": 840,
+						"CustomAttributes": {
+							"FarmingLevel": 3
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 233
+				},
+
+				"MizuLeo.MoreRecipes_SpringSalad": {
+					"Name": "Spring Salad",
+					"DisplayName": "Spring Salad",
+					"Description": "A healthy alternative.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 260,
+
+					"Edibility": 45,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 234
+				},
+
+				"MizuLeo.MoreRecipes_StuffedPeppers": {
+					"Name": "Stuffed Peppers",
+					"DisplayName": "Stuffed Peppers",
+					"Description": "Bell peppers stuffed with cheese.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 220,
+
+					"Edibility": 80,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 235
+				},
+
+				"MizuLeo.MoreRecipes_SweetPotatoCasserole": {
+					"Name": "Sweet Potato Casserole",
+					"DisplayName": "Sweet Potato Casserole",
+					"Description": "Sweet potatoes and sugar topped with marshmallows.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 236
+				},
+
+				"MizuLeo.MoreRecipes_SweetPotatoFries": {
+					"Name": "Sweet Potato Fries",
+					"DisplayName": "Sweet Potato Fries",
+					"Description": "Like regular fries, only sweet.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 175,
+
+					"Edibility": 52,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 237
+				},
+
+				"MizuLeo.MoreRecipes_TomatoBasilSoup": {
+					"Name": "Tomato Basil Soup",
+					"DisplayName": "Tomato Basil Soup",
+					"Description": "A rich soup with a hint of basil.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 230,
+
+					"Edibility": 40,
+					"Buff": {
+						"Duration": 480,
+						"CustomAttributes": {
+							"LuckLevel": 2
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 238
+				},
+
+				"MizuLeo.MoreRecipes_TortillaRollUps": {
+					"Name": "Tortilla Roll-Ups",
+					"DisplayName": "Tortilla Roll-Ups",
+					"Description": "A popular childhood snack.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 30,
+					"Buff": {
+						"Duration": 300,
+						"CustomAttributes": {
+							"LuckLevel": 2
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 239
+				},
+
+				"MizuLeo.MoreRecipes_TropicalSalad": {
+					"Name": "Tropical Salad",
+					"DisplayName": "Tropical Salad",
+					"Description": "A medley of tropical fruits.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 110,
+
+					"Edibility": 80,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 240
+				},
+
+				"MizuLeo.MoreRecipes_TropicalTrailMix": {
+					"Name": "Tropical Trail Mix",
+					"DisplayName": "Tropical Trail Mix",
+					"Description": "A sweet trail mix popular in the Fern Islands.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 241
+				},
+
+				"MizuLeo.MoreRecipes_Waffles": {
+					"Name": "Waffles",
+					"DisplayName": "Waffles",
+					"Description": "Square-shaped breakfast pastries.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 50,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 242
+				},
+
+				"MizuLeo.MoreRecipes_WasabiPeas": {
+					"Name": "Wasabi Peas",
+					"DisplayName": "Wasabi Peas",
+					"Description": "Dried peas that have been dusted in wasabi.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 80,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 243
+				},
+
+			// international food
+				"MizuLeo.MoreRecipes_Arepas": {
+					"Name": "Arepas",
+					"DisplayName": "Arepas",
+					"Description": "Corn flour and cheese. Perfection!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 20,
+					"Buff": {
+						"Duration": 780,
+						"CustomAttributes": {
+							"LuckLevel": 1,
+							"MaxStamina": 40
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 312
+				},
+
+				"MizuLeo.MoreRecipes_BabaGhanoush": {
+					"Name": "Baba Ghanoush",
+					"DisplayName": "Baba Ghanoush",
+					"Description": "Roasted eggplant blended with tahini, olive oil, and seasonings.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 210,
+
+					"Edibility": 85,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 314
+				},
+
+				"MizuLeo.MoreRecipes_CacioePepe": {
+					"Name": "Cacio e Pepe",
+					"DisplayName": "Cacio e Pepe",
+					"Description": "A traditional pasta with just three ingredients: cheese, salt, and pepper.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 325,
+
+					"Edibility": 30,
+					"Buff": {
+						"Duration": 300,
+						"CustomAttributes": {
+							"LuckLevel": 1,
+							"Defense": 2
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 315
+				},
+
+				"MizuLeo.MoreRecipes_Ceviche": {
+					"Name": "Ceviche",
+					"DisplayName": "Ceviche",
+					"Description": "Fresh raw fish cured in citrus and spiced with peppers.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 220,
+
+					"Edibility": 45,
+					"Buff": {
+						"Duration": 480,
+						"CustomAttributes": {
+							"FishingLevel": 2
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 316
+				},
+
+				"MizuLeo.MoreRecipes_ChipsandGuacamole": {
+					"Name": "Chips and Guacamole",
+					"DisplayName": "Chips and Guacamole",
+					"Description": "Pulped avocado with peppers and garlic.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 120,
+
+					"Edibility": 54,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 317
+				},
+
+				"MizuLeo.MoreRecipes_ChipsandSalsa": {
+					"Name": "Chips and Salsa",
+					"DisplayName": "Chips and Salsa",
+					"Description": "Salsa and chips, perfect for a party.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 120,
+
+					"Edibility": 54,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 318
+				},
+
+				"MizuLeo.MoreRecipes_ChocolateBananaCrepes": {
+					"Name": "Chocolate Banana Crepes",
+					"DisplayName": "Chocolate Banana Crepes",
+					"Description": "Hazelnut sauce and banana together in a crepe.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 70,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 319
+				},
+
+				"MizuLeo.MoreRecipes_CoconutCurry": {
+					"Name": "Coconut Curry",
+					"DisplayName": "Coconut Curry",
+					"Description": "A creamy, milk-based curry that has a sweet flavor.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 350,
+
+					"Edibility": 60,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 320
+				},
+
+				"MizuLeo.MoreRecipes_Colcannon": {
+					"Name": "Colcannon",
+					"DisplayName": "Colcannon",
+					"Description": "Mashed potatoes with a delightful crunch!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 363
+				},
+
+				"MizuLeo.MoreRecipes_CrabinOysterSauce": {
+					"Name": "Crab in Oyster Sauce",
+					"DisplayName": "Crab in Oyster Sauce",
+					"Description": "A whole crab cooked in an iconic sauce.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 320,
+
+					"Edibility": 50,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 321
+				},
+
+				"MizuLeo.MoreRecipes_CrabRangoons": {
+					"Name": "Crab Rangoons",
+					"DisplayName": "Crab Rangoons",
+					"Description": "Shredded crab and cream cheese filling. It has a seafood flavor!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 30,
+					"Buff": {
+						"Duration": 780,
+						"CustomAttributes": {
+							"MaxStamina": 25
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 322
+				},
+
+				"MizuLeo.MoreRecipes_CrackedConch": {
+					"Name": "Cracked Conch",
+					"DisplayName": "Cracked Conch",
+					"Description": "A deep-fried snack made with the meat of a shellfish.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 323
+				},
+
+				"MizuLeo.MoreRecipes_Croissant": {
+					"Name": "Croissant",
+					"DisplayName": "Croissant",
+					"Description": "A flaky, crescent-shaped bread.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 110,
+
+					"Edibility": 20,
+					"Buff": {
+						"Duration": 660,
+						"CustomAttributes": {
+							"MiningLevel": 2,
+							"Speed": 1
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 324
+				},
+
+				"MizuLeo.MoreRecipes_CurryPowder": {
+					"Name": "Curry Powder",
+					"DisplayName": "Curry Powder",
+					"Description": "The integral mix of herbs and seasonings for dishes all across the world.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 100,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 325
+				},
+
+				"MizuLeo.MoreRecipes_Dolma": {
+					"Name": "Dolma",
+					"DisplayName": "Dolma",
+					"Description": "Grape leaves stuffed with rice and other fillings.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 230,
+
+					"Edibility": 54,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 326
+				},
+
+				"MizuLeo.MoreRecipes_EggyToast": {
+					"Name": "Eggy Toast",
+					"DisplayName": "Eggy Toast",
+					"Description": "Toast soaked in a milk and egg mixture and then fried in a pan. Top with powdered sugar and syrup!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 320,
+
+					"Edibility": 36,
+					"Buff": {
+						"Duration": 480,
+						"CustomAttributes": {
+							"Defense": 2
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 187
+				},
+
+				"MizuLeo.MoreRecipes_Falafel": {
+					"Name": "Falafel",
+					"DisplayName": "Falafel",
+					"Description": "Ground, deep-fried chickpeas.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 32,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 327
+				},
+
+				"MizuLeo.MoreRecipes_Farofa": {
+					"Name": "Farofa",
+					"DisplayName": "Farofa",
+					"Description": "A toasted mix of ground cassava and other veggies.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 130,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 328
+				},
+
+				"MizuLeo.MoreRecipes_FishAmokCurry": {
+					"Name": "Fish Amok Curry",
+					"DisplayName": "Fish Amok Curry",
+					"Description": "A curry with a mousse-like consistency from steaming!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 450,
+
+					"Edibility": 60,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 329
+				},
+
+				"MizuLeo.MoreRecipes_FishandChips": {
+					"Name": "Fish and Chips",
+					"DisplayName": "Fish and Chips",
+					"Description": "Fried white fish and fries. ",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 350,
+
+					"Edibility": 32,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 330
+				},
+
+				"MizuLeo.MoreRecipes_GreenPapayaSalad": {
+					"Name": "Green Papaya Salad",
+					"DisplayName": "Green Papaya Salad",
+					"Description": "Shredded unripe papaya with a salty, savory, sweet flavor.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 115,
+
+					"Edibility": 45,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 331
+				},
+
+				"MizuLeo.MoreRecipes_Gumbo": {
+					"Name": "Gumbo",
+					"DisplayName": "Gumbo",
+					"Description": "A seafood stew that's exceptionally spicy.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 320,
+
+					"Edibility": 80,
+					"Buff": {
+						"Duration": 960,
+						"CustomAttributes": {
+							"Speed": 4
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 332
+				},
+
+				"MizuLeo.MoreRecipes_Halloumi": {
+					"Name": "Halloumi",
+					"DisplayName": "Halloumi",
+					"Description": "Cheese grilled on a flame. It's squeaky!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 80,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 333
+				},
+
+				"MizuLeo.MoreRecipes_HoneyWalnutShrimp": {
+					"Name": "Honey Walnut Shrimp",
+					"DisplayName": "Honey Walnut Shrimp",
+					"Description": "Shrimp drowned in honey and walnuts, served on rice.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 260,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 334
+				},
+
+				"MizuLeo.MoreRecipes_HoriatikiSalad": {
+					"Name": "Horiatiki Salad",
+					"DisplayName": "Horiatiki Salad",
+					"Description": "A refreshing salad made with lots of olives and dressed in vinegar.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 110,
+
+					"Edibility": 45,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 337
+				},
+
+				"MizuLeo.MoreRecipes_HotandSourSoup": {
+					"Name": "Hot and Sour Soup",
+					"DisplayName": "Hot and Sour Soup",
+					"Description": "A vinegar-based soup that's somewhat sour and somewhat spicy.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 90,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 335
+				},
+
+				"MizuLeo.MoreRecipes_Hummus": {
+					"Name": "Hummus",
+					"DisplayName": "Hummus",
+					"Description": "Ground chickpeas. Often served with pita.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 210,
+
+					"Edibility": 85,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 336
+				},
+
+				"MizuLeo.MoreRecipes_Meuniere": {
+					"Name": "Meunière",
+					"DisplayName": "Meunière",
+					"Description": "A fish grilled in butter.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 245,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 338
+				},
+
+				"MizuLeo.MoreRecipes_MintChutney": {
+					"Name": "Mint Chutney",
+					"DisplayName": "Mint Chutney",
+					"Description": "A minced mint jelly.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 339
+				},
+
+				"MizuLeo.MoreRecipes_MozzarellaSalad": {
+					"Name": "Mozzarella Salad",
+					"DisplayName": "Mozzarella Salad",
+					"Description": "It's a harmony of taste! You'll feel better after eating it, how bizarre.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 400,
+
+					"Edibility": 80,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 340
+				},
+
+				"MizuLeo.MoreRecipes_Naan": {
+					"Name": "Naan",
+					"DisplayName": "Naan",
+					"Description": "A flat bread seasoned with garlic.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 75,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 341
+				},
+
+				"MizuLeo.MoreRecipes_NachosandCheese": {
+					"Name": "Nachos and Cheese",
+					"DisplayName": "Nachos and Cheese",
+					"Description": "Chips and gooey cheese.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 120,
+
+					"Edibility": 54,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 342
+				},
+
+				"MizuLeo.MoreRecipes_OysterSauce": {
+					"Name": "Oyster Sauce",
+					"DisplayName": "Oyster Sauce",
+					"Description": "A sauce with a distinct briney flavor.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 343
+				},
+
+				"MizuLeo.MoreRecipes_PadThai": {
+					"Name": "Pad Thai",
+					"DisplayName": "Pad Thai",
+					"Description": "Stir-fried noodles and vegetables best made in a wok.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 470,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 344
+				},
+
+				"MizuLeo.MoreRecipes_PenneallArrabiatta": {
+					"Name": "Penne all'Arrabiatta",
+					"DisplayName": "Penne all'Arrabiatta",
+					"Description": "A traditional pasta made with very simple ingredients. It's spicy!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 300,
+
+					"Edibility": 30,
+					"Buff": {
+						"Duration": 540,
+						"CustomAttributes": {
+							"Speed": 1,
+							"Defense": 2
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 313
+				},
+
+				"MizuLeo.MoreRecipes_Pierogi": {
+					"Name": "Pierogi",
+					"DisplayName": "Pierogi",
+					"Description": "Little pockets of savory goodness.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 260,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 345
+				},
+
+				"MizuLeo.MoreRecipes_Pita": {
+					"Name": "Pita",
+					"DisplayName": "Pita",
+					"Description": "Flat bread that is somewhat crispy.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 75,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 346
+				},
+
+				"MizuLeo.MoreRecipes_Pupusas": {
+					"Name": "Pupusas",
+					"DisplayName": "Pupusas",
+					"Description": "Corn flour and cheese. This one is stuffed with grilled cactus.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 347
+				},
+
+				"MizuLeo.MoreRecipes_Quiche": {
+					"Name": "Quiche",
+					"DisplayName": "Quiche",
+					"Description": "It's an eggy pie!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 325,
+
+					"Edibility": 70,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 348
+				},
+
+				"MizuLeo.MoreRecipes_SaladRolls": {
+					"Name": "Salad Rolls",
+					"DisplayName": "Salad Rolls",
+					"Description": "A thin rice wrapper filled with spinach, shrimp, and rice.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 320,
+
+					"Edibility": 45,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 349
+				},
+
+				"MizuLeo.MoreRecipes_Samosas": {
+					"Name": "Samosas",
+					"DisplayName": "Samosas",
+					"Description": "A fried or baked dish with a savory filling.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 350
+				},
+
+				"MizuLeo.MoreRecipes_SesameSticks": {
+					"Name": "Sesame Sticks",
+					"DisplayName": "Sesame Sticks",
+					"Description": "Ground sesame seeds formed into sticks.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 175,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 351
+				},
+
+				"MizuLeo.MoreRecipes_ShrimpFriedRice": {
+					"Name": "Shrimp Fried Rice",
+					"DisplayName": "Shrimp Fried Rice",
+					"Description": "Shrimp and fried rice. Make in a wok for the best results!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 370,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 352
+				},
+
+				"MizuLeo.MoreRecipes_Skyr": {
+					"Name": "Skyr",
+					"DisplayName": "Skyr",
+					"Description": "Yogurt that's strained to give it a very tart flavor and creamy consistency.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 225,
+
+					"Edibility": 70,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 353
+				},
+
+				"MizuLeo.MoreRecipes_SourFishSoup": {
+					"Name": "Sour Fish Soup",
+					"DisplayName": "Sour Fish Soup",
+					"Description": "Tangy and unique!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 350,
+
+					"Edibility": 90,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 354
+				},
+
+				"MizuLeo.MoreRecipes_Spatzle": {
+					"Name": "Spätzle",
+					"DisplayName": "Spätzle",
+					"Description": "An egg noodle dish.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 260,
+
+					"Edibility": 34,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 355
+				},
+
+				"MizuLeo.MoreRecipes_SpringRolls": {
+					"Name": "Spring Rolls",
+					"DisplayName": "Spring Rolls",
+					"Description": "Vegetables wrapped in a wonton and deep-fried.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 240,
+
+					"Edibility": 32,
+					"Buff": {
+						"Duration": 900,
+						"CustomAttributes": {
+							"ForagingLevel": 2
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 356
+				},
+
+				"MizuLeo.MoreRecipes_Steckerlfisch": {
+					"Name": "Steckerlfisch",
+					"DisplayName": "Steckerlfisch",
+					"Description": "Fish on a stick, not fish sticks!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 34,
+					"Buff": {
+						"Duration": 300,
+						"CustomAttributes": {
+							"FishingLevel": 1
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 357
+				},
+
+				"MizuLeo.MoreRecipes_Succotash": {
+					"Name": "Succotash",
+					"DisplayName": "Succotash",
+					"Description": "Corn and beans mixed with tomatoes. A hearty salad.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 270,
+
+					"Edibility": 45,
+					"Buff": {
+						"Duration": 480,
+						"CustomAttributes": {
+							"FarmingLevel": 2
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 358
+				},
+
+				"MizuLeo.MoreRecipes_SweetCreamCrepes": {
+					"Name": "Sweet Cream Crepes",
+					"DisplayName": "Sweet Cream Crepes",
+					"Description": "Crepes made with fruit and whipped cream.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 120,
+
+					"Edibility": 70,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 359
+				},
+
+				"MizuLeo.MoreRecipes_Tahini": {
+					"Name": "Tahini",
+					"DisplayName": "Tahini",
+					"Description": "Also known as ardeh. A condiment made from toasted ground hulled sesame seeds.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 100,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 360
+				},
+
+				"MizuLeo.MoreRecipes_Tostones": {
+					"Name": "Tostones",
+					"DisplayName": "Tostones",
+					"Description": "Twice-fried plantain slices.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 125,
+
+					"Edibility": 34,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 361
+				},
+
+				"MizuLeo.MoreRecipes_Tzatziki": {
+					"Name": "Tzatziki",
+					"DisplayName": "Tzatziki",
+					"Description": "A tangy sauce!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 362
+				},
+
+			// japanese food
+				"MizuLeo.MoreRecipes_AvocadoEelRoll": {
+					"Name": "Avocado Eel Roll",
+					"DisplayName": "Avocado Eel Roll",
+					"Description": "Eel wrapped in seaweed and rice, topped with avocado.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 220,
+
+					"Edibility": 40,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 264
+				},
+
+				"MizuLeo.MoreRecipes_BonitoFlakes": {
+					"Name": "Bonito Flakes",
+					"DisplayName": "Bonito Flakes",
+					"Description": "Thinly shaved flakes of dried tuna.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 100,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 265
+				},
+
+				"MizuLeo.MoreRecipes_CrabRoll": {
+					"Name": "Crab Roll",
+					"DisplayName": "Crab Roll",
+					"Description": "Imitation crab is for the weak.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 40,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 266
+				},
+
+				"MizuLeo.MoreRecipes_CucumberRoll": {
+					"Name": "Cucumber Roll",
+					"DisplayName": "Cucumber Roll",
+					"Description": "It’s like a vegetarian maki roll.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 220,
+
+					"Edibility": 40,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 267
+				},
+
+				"MizuLeo.MoreRecipes_Daifuku": {
+					"Name": "Daifuku",
+					"DisplayName": "Daifuku",
+					"Description": "Mochi with red bean and a strawberry.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 90,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 268
+				},
+
+				"MizuLeo.MoreRecipes_DashiStock": {
+					"Name": "Dashi Stock",
+					"DisplayName": "Dashi Stock",
+					"Description": "Stewed down dashi broth that's often used as a base for soup.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 165,
+
+					"Edibility": 34,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 270
+				},
+
+				"MizuLeo.MoreRecipes_Dango": {
+					"Name": "Dango",
+					"DisplayName": "Dango",
+					"Description": "Mochi balls on a skewer.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 100,
+
+					"Edibility": 70,
+					"Buff": {
+						"Duration": 660,
+						"CustomAttributes": {
+							"MagneticRadius": 32
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 269
+				},
+
+				"MizuLeo.MoreRecipes_FriedLotusRoot": {
+					"Name": "Fried Lotus Root",
+					"DisplayName": "Fried Lotus Root",
+					"Description": "Sliced lotus root, fried with shrimp. It has an interesting shape.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 220,
+
+					"Edibility": 32,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 271
+				},
+
+				"MizuLeo.MoreRecipes_FriedRice": {
+					"Name": "Fried Rice",
+					"DisplayName": "Fried Rice",
+					"Description": "Rice fried under high heat with oil. Savory!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 375,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 272
+				},
+
+				"MizuLeo.MoreRecipes_FriedTofu": {
+					"Name": "Fried Tofu",
+					"DisplayName": "Fried Tofu",
+					"Description": "Deep-fried tofu. It has a nice texture.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 120,
+
+					"Edibility": 32,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 273
+				},
+
+				"MizuLeo.MoreRecipes_Inarizushi": {
+					"Name": "Inarizushi",
+					"DisplayName": "Inarizushi",
+					"Description": "Sweet tofu sushi.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 125,
+
+					"Edibility": 40,
+					"Buff": {
+						"Duration": 660,
+						"CustomAttributes": {
+							"LuckLevel": 2,
+							"MaxStamina": 25
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 274
+				},
+
+				"MizuLeo.MoreRecipes_KitsuneUdon": {
+					"Name": "Kitsune Udon",
+					"DisplayName": "Kitsune Udon",
+					"Description": "A bowl of comforting udon with tofu and spiral fish cakes.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 400,
+
+					"Edibility": 80,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 275
+				},
+
+				"MizuLeo.MoreRecipes_MelonPan": {
+					"Name": "Melon Pan",
+					"DisplayName": "Melon Pan",
+					"Description": "Despite its name, it's really just a sweet flavored bread.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 276
+				},
+
+				"MizuLeo.MoreRecipes_MisoRamen": {
+					"Name": "Miso Ramen",
+					"DisplayName": "Miso Ramen",
+					"Description": "Ramen in a miso broth.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 380,
+
+					"Edibility": 80,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 277
+				},
+
+				"MizuLeo.MoreRecipes_MisoSoup": {
+					"Name": "Miso Soup",
+					"DisplayName": "Miso Soup",
+					"Description": "A simple soup made from dashi.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 40,
+					"Buff": {
+						"Duration": 540,
+						"CustomAttributes": {
+							"MaxStamina": 30,
+							"Defense": 2
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 278
+				},
+
+				"MizuLeo.MoreRecipes_Mochi": {
+					"Name": "Mochi",
+					"DisplayName": "Mochi",
+					"Description": "Made by pounding rice until it's sticky.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 100,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 279
+				},
+
+				"MizuLeo.MoreRecipes_MochiIceCream": {
+					"Name": "Mochi Ice Cream",
+					"DisplayName": "Mochi Ice Cream",
+					"Description": "Mochi incasing a morsel of ice cream.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 280
+				},
+
+				"MizuLeo.MoreRecipes_Narutomaki": {
+					"Name": "Narutomaki",
+					"DisplayName": "Narutomaki",
+					"Description": "A fish cake. It's made from ground fish paste and often formed into fun shapes.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 80,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 281
+				},
+
+				"MizuLeo.MoreRecipes_NigiriSushiSet": {
+					"Name": "Nigiri Sushi Set",
+					"DisplayName": "Nigiri Sushi Set",
+					"Description": "A classic set of different fish on rice.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 500,
+
+					"Edibility": 50,
+					"Buff": {
+						"Duration": 960,
+						"CustomAttributes": {
+							"FishingLevel": 3,
+							"MaxStamina": 50
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 282
+				},
+
+				"MizuLeo.MoreRecipes_Oden": {
+					"Name": "Oden",
+					"DisplayName": "Oden",
+					"Description": "A one pot winter dish consisting of several ingredients.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 300,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 283
+				},
+
+				"MizuLeo.MoreRecipes_Omurice": {
+					"Name": "Omurice",
+					"DisplayName": "Omurice",
+					"Description": "An omelet made with rice and topped with ketchup.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 350,
+
+					"Edibility": 30,
+					"Buff": {
+						"Duration": 660,
+						"CustomAttributes": {
+							"Defense": 3
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 284
+				},
+
+				"MizuLeo.MoreRecipes_Onigiri": {
+					"Name": "Onigiri",
+					"DisplayName": "Onigiri",
+					"Description": "It's a rice ball. A popular snack for kids.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 50,
+
+					"Edibility": 20,
+					"Buff": {
+						"Duration": 300,
+						"CustomAttributes": {
+							"Attack": 1
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 285
+				},
+
+				"MizuLeo.MoreRecipes_RedBeanBun": {
+					"Name": "Red Bean Bun",
+					"DisplayName": "Red Bean Bun",
+					"Description": "A sweet but mild bun filled with bean paste.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 70,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 286
+				},
+
+				"MizuLeo.MoreRecipes_SalmonSushi": {
+					"Name": "Salmon Sushi",
+					"DisplayName": "Salmon Sushi",
+					"Description": "Sushi made with salmon.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 40,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 287
+				},
+
+				"MizuLeo.MoreRecipes_ShoyuRamen": {
+					"Name": "Shoyu Ramen",
+					"DisplayName": "Shoyu Ramen",
+					"Description": "A savory soup with noodles and a soft-boiled egg.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 380,
+
+					"Edibility": 80,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 288
+				},
+
+				"MizuLeo.MoreRecipes_ShrimpTempura": {
+					"Name": "Shrimp Tempura",
+					"DisplayName": "Shrimp Tempura",
+					"Description": "Shrimp covered in panko crumbs and deep-fried.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 32,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 289
+				},
+
+				"MizuLeo.MoreRecipes_Soba": {
+					"Name": "Soba",
+					"DisplayName": "Soba",
+					"Description": "Buckwheat noodles served with a light broth.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 300,
+
+					"Edibility": 80,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 290
+				},
+
+				"MizuLeo.MoreRecipes_Surimi": {
+					"Name": "Surimi",
+					"DisplayName": "Surimi",
+					"Description": "Minced fish that have been worked into a paste and formed.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 50,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 291
+				},
+
+				"MizuLeo.MoreRecipes_SushiHandRoll": {
+					"Name": "Sushi Hand Roll",
+					"DisplayName": "Sushi Hand Roll",
+					"Description": "Seaweed, rice, cucumber, and fish.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 40,
+					"Buff": {
+						"Duration": 600,
+						"CustomAttributes": {
+							"FishingLevel": 1,
+							"LuckLevel": 2
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 292
+				},
+
+				"MizuLeo.MoreRecipes_Taiyaki": {
+					"Name": "Taiyaki",
+					"DisplayName": "Taiyaki",
+					"Description": "A fish-shaped pastry filled with red bean paste.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 220,
+
+					"Edibility": 70,
+					"Buff": {
+						"Duration": 480,
+						"CustomAttributes": {
+							"MiningLevel": 2
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 293
+				},
+
+				"MizuLeo.MoreRecipes_Takoyaki": {
+					"Name": "Takoyaki",
+					"DisplayName": "Takoyaki",
+					"Description": "Balls of fried batter and octopus, topped with mayonnaise and a savory sauce.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 34,
+					"Buff": {
+						"Duration": 900,
+						"CustomAttributes": {
+							"LuckLevel": 3
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 294
+				},
+
+				"MizuLeo.MoreRecipes_Tendon": {
+					"Name": "Tendon",
+					"DisplayName": "Tendon",
+					"Description": "A rice bowl with tempura on top.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 320,
+
+					"Edibility": 88,
+					"Buff": {
+						"Duration": 900,
+						"CustomAttributes": {
+							"MiningLevel": 2,
+							"MaxStamina": 30
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 296
+				},
+
+				"MizuLeo.MoreRecipes_Tofu": {
+					"Name": "Tofu",
+					"DisplayName": "Tofu",
+					"Description": "Made from soybean milk. Also known as bean curds.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 120,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 297
+				},
+
+				"MizuLeo.MoreRecipes_TunaSushi": {
+					"Name": "Tuna Sushi",
+					"DisplayName": "Tuna Sushi",
+					"Description": "Sushi made with tuna.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 175,
+
+					"Edibility": 40,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 298
+				},
+
+				"MizuLeo.MoreRecipes_Udon": {
+					"Name": "Udon",
+					"DisplayName": "Udon",
+					"Description": "Thick wheat noodles in a hearty broth.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 350,
+
+					"Edibility": 80,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 299
+				},
+
+				"MizuLeo.MoreRecipes_UmeOnigiri": {
+					"Name": "Ume Onigiri",
+					"DisplayName": "Ume Onigiri",
+					"Description": "A rice ball with pickled plum inside.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 125,
+
+					"Edibility": 20,
+					"Buff": {
+						"Duration": 300,
+						"CustomAttributes": {
+							"Defense": 1
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 300
+				},
+
+				"MizuLeo.MoreRecipes_VegetableTempura": {
+					"Name": "Vegetable Tempura",
+					"DisplayName": "Vegetable Tempura",
+					"Description": "Deep-fried vegetables.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 34,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 295
+				},
+
+				"MizuLeo.MoreRecipes_Zarusoba": {
+					"Name": "Zarusoba",
+					"DisplayName": "Zarusoba",
+					"Description": "A chilled soba set.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 370,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 301
+				},
+
+			// desserts
+				"MizuLeo.MoreRecipes_ApplePie": {
+					"Name": "Apple Pie",
+					"DisplayName": "Apple Pie",
+					"Description": "A delicious pie made with apples and cinnamon.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 225,
+
+					"Edibility": 86,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 48
+				},
+
+				"MizuLeo.MoreRecipes_AppleTurnover": {
+					"Name": "Apple Turnover",
+					"DisplayName": "Apple Cobbler",
+					"Description": "A pastry with apple filling.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 125,
+
+					"Edibility": 60,
+					"Buff": {
+						"Duration": 900,
+						"CustomAttributes": {
+							"ForagingLevel": 2
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 49
+				},
+
+				"MizuLeo.MoreRecipes_AutumnMuffin": {
+					"Name": "Autumn Muffin",
+					"DisplayName": "Autumn Muffin",
+					"Description": "A decadent muffin that's topped with powdered sugar.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 60,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 50
+				},
+
+				"MizuLeo.MoreRecipes_BakedApple": {
+					"Name": "Baked Apple",
+					"DisplayName": "Baked Apple",
+					"Description": "Simply pop an apple in the oven and bake it. Warm and soft!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 175,
+
+					"Edibility": 40,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 51
+				},
+
+				"MizuLeo.MoreRecipes_Baklava": {
+					"Name": "Baklava",
+					"DisplayName": "Baklava",
+					"Description": "Thinly layered pastry dough over honey and seasonal nuts.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 350,
+
+					"Edibility": 60,
+					"Buff": {
+						"Duration": 660,
+						"CustomAttributes": {
+							"MaxStamina": 30,
+							"Attack": 1
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 52
+				},
+
+				"MizuLeo.MoreRecipes_BananaBread": {
+					"Name": "Banana Bread",
+					"DisplayName": "Banana Bread",
+					"Description": "It’s rich and moist!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 155,
+
+					"Edibility": 60,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 53
+				},
+
+				"MizuLeo.MoreRecipes_BreadPudding": {
+					"Name": "Bread Pudding",
+					"DisplayName": "Bread Pudding",
+					"Description": "A little slimy, but so sweet.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 225,
+
+					"Edibility": 60,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 54
+				},
+
+				"MizuLeo.MoreRecipes_Brownie": {
+					"Name": "Brownie",
+					"DisplayName": "Brownie",
+					"Description": "A rich, chocolatey snack.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 60,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 55
+				},
+
+				"MizuLeo.MoreRecipes_CakePops": {
+					"Name": "Cake Pops",
+					"DisplayName": "Cake Pops",
+					"Description": "Cake and icing rolled into a ball and dipped in chocolate!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 125,
+
+					"Edibility": 40,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 118
+				},
+
+				"MizuLeo.MoreRecipes_CandiedApple": {
+					"Name": "Candied Apple",
+					"DisplayName": "Candied Apple",
+					"Description": "An apple that has been saturated in sugar.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 75,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 57
+				},
+
+				"MizuLeo.MoreRecipes_CandiedCherries": {
+					"Name": "Candied Cherries",
+					"DisplayName": "Candied Cherries",
+					"Description": "Cherries that have been saturated in sugar.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 125,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 58
+				},
+
+				"MizuLeo.MoreRecipes_CandiedLemonPeel": {
+					"Name": "Candied Lemon Peel",
+					"DisplayName": "Candied Lemon Peel",
+					"Description": "Lemon peels that have been saturated in and dusted with sugar.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 125,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 59
+				},
+
+				"MizuLeo.MoreRecipes_CandiedOrangePeel": {
+					"Name": "Candied Orange Peel",
+					"DisplayName": "Candied Orange Peel",
+					"Description": "Orange peels that have been saturated in and dusted with sugar.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 125,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 60
+				},
+
+				"MizuLeo.MoreRecipes_CandiedPineapple": {
+					"Name": "Candied Pineapple",
+					"DisplayName": "Candied Pineapple",
+					"Description": "A pineapple that has been saturated in sugar.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 61
+				},
+
+				"MizuLeo.MoreRecipes_Caramel": {
+					"Name": "Caramel",
+					"DisplayName": "Caramel",
+					"Description": "Buttery and sweet, it's commonly used in candies and treats.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 80,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 63
+				},
+
+				"MizuLeo.MoreRecipes_CaramelApple": {
+					"Name": "Caramel Apple",
+					"DisplayName": "Caramel Apple",
+					"Description": "A sweet apple that's been dipped in hot caramel.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 50,
+					"Buff": {
+						"Duration": 300,
+						"CustomAttributes": {
+							"Attack": 1
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 64
+				},
+
+				"MizuLeo.MoreRecipes_CaramelEgg": {
+					"Name": "Caramel Egg",
+					"DisplayName": "Caramel Egg",
+					"Description": "A chocolate egg sculpture with caramel within.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 125,
+
+					"Edibility": 40,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 65
+				},
+
+				"MizuLeo.MoreRecipes_CarrotCake": {
+					"Name": "Carrot Cake",
+					"DisplayName": "Carrot Cake",
+					"Description": "A light and fluffy cake, it’s a spring treat.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 60,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 66
+				},
+
+				"MizuLeo.MoreRecipes_CassavaCake": {
+					"Name": "Cassava Cake",
+					"DisplayName": "Cassava Cake",
+					"Description": "Delicious and custardy!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 60,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 67
+				},
+
+				"MizuLeo.MoreRecipes_Castella": {
+					"Name": "Castella",
+					"DisplayName": "Castella",
+					"Description": "A light and fluffy cake.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 300,
+
+					"Edibility": 60,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 56
+				},
+
+				"MizuLeo.MoreRecipes_Cheesecake": {
+					"Name": "Cheesecake",
+					"DisplayName": "Cheesecake",
+					"Description": "Cream cheese beat into even creamier submission.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 380,
+
+					"Edibility": 60,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 68
+				},
+
+				"MizuLeo.MoreRecipes_CherryPie": {
+					"Name": "Cherry Pie",
+					"DisplayName": "Cherry Pie",
+					"Description": "A pie crust filled with soft, gooey cherries.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 225,
+
+					"Edibility": 86,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 69
+				},
+
+				"MizuLeo.MoreRecipes_Chocolate": {
+					"Name": "Chocolate",
+					"DisplayName": "Chocolate",
+					"Description": "Decadent!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 100,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 70
+				},
+
+				"MizuLeo.MoreRecipes_ChocolateCoveredStrawberry": {
+					"Name": "Chocolate Covered Strawberry",
+					"DisplayName": "Chocolate Covered Strawberry",
+					"Description": "One step away from bliss!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 50,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 71
+				},
+
+				"MizuLeo.MoreRecipes_ChocolatePudding": {
+					"Name": "Choocolate Pudding",
+					"DisplayName": "Chocolate Pudding",
+					"Description": "A childhood favorite.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 110,
+
+					"Edibility": 50,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 72
+				},
+
+				"MizuLeo.MoreRecipes_CinnamonRoll": {
+					"Name": "Cinnamon Roll",
+					"DisplayName": "Cinnamon Roll",
+					"Description": "A swirled pastry filled with cinnamon and coverd in icing.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 50,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 73
+				},
+
+				"MizuLeo.MoreRecipes_CoffeeCake": {
+					"Name": "Coffee Cake",
+					"DisplayName": "Coffee Cake",
+					"Description": "A light cake that's made with coffee.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 225,
+
+					"Edibility": 60,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 74
+				},
+
+				"MizuLeo.MoreRecipes_CottonCandy": {
+					"Name": "Cotton Candy",
+					"DisplayName": "Cotton Candy",
+					"Description": "Spin sugar into a little cloud of heaven!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 50,
+
+					"Edibility": 50,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 75
+				},
+
+				"MizuLeo.MoreRecipes_CreamPuff": {
+					"Name": "Cream Puff",
+					"DisplayName": "Cream Puff",
+					"Description": "Pastries filled with a sweet cream.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 225,
+
+					"Edibility": 60,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 76
+				},
+
+				"MizuLeo.MoreRecipes_Creamsicle": {
+					"Name": "Creamsicle",
+					"DisplayName": "Creamsicle",
+					"Description": "Ice cream with a chocolate shell.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 50,
+					"Buff": {
+						"Duration": 300,
+						"CustomAttributes": {
+							"Attack": 2
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 77
+				},
+
+				"MizuLeo.MoreRecipes_CremeBrulee": {
+					"Name": "Crème Brûlée",
+					"DisplayName": "Crème Brûlée",
+					"Description": "A custardy desert with a crystalized sugar toping.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 260,
+
+					"Edibility": 60,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 78
+				},
+
+				"MizuLeo.MoreRecipes_CrumbCake": {
+					"Name": "Crumb Cake",
+					"DisplayName": "Crumb Cake",
+					"Description": "A autumnal cake covered in sugary crumbs.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 210,
+
+					"Edibility": 60,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 79
+				},
+
+				"MizuLeo.MoreRecipes_Donut": {
+					"Name": "Donut",
+					"DisplayName": "Donut",
+					"Description": "Mmm... donuts.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 225,
+
+					"Edibility": 60,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 80
+				},
+
+				"MizuLeo.MoreRecipes_FigTart": {
+					"Name": "Fig Tart",
+					"DisplayName": "Fig Tart",
+					"Description": "Simple snacks that beg you to eat more than one.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 75,
+
+					"Edibility": 50,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 81
+				},
+
+				"MizuLeo.MoreRecipes_Flan": {
+					"Name": "Flan",
+					"DisplayName": "Flan",
+					"Description": "A custardy, caramel dessert.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 86,
+					"Buff": {
+						"Duration": 480,
+						"CustomAttributes": {
+							"LuckLevel": 1,
+							"Attack": 1
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 82
+				},
+
+				"MizuLeo.MoreRecipes_FriedSweetBanana": {
+					"Name": "Fried Sweet Banana",
+					"DisplayName": "Fried Sweet Banana",
+					"Description": "Sugared bananas, sauteéd in butter.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 40,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 83
+				},
+
+				"MizuLeo.MoreRecipes_Fruitcake": {
+					"Name": "Fruitcake",
+					"DisplayName": "Fruitcake",
+					"Description": "A dense cake with bits of fruit.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 60,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 84
+				},
+
+				"MizuLeo.MoreRecipes_Fudge": {
+					"Name": "Fudge",
+					"DisplayName": "Fudge",
+					"Description": "Try not to fudge it up.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 50,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 85
+				},
+
+				"MizuLeo.MoreRecipes_Gingerbread": {
+					"Name": "Gingerbread",
+					"DisplayName": "Gingerbread",
+					"Description": "A festive bread that has a dense texture.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 90,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 86
+				},
+
+				"MizuLeo.MoreRecipes_Gingersnap": {
+					"Name": "Gingersnap",
+					"DisplayName": "Gingersnap",
+					"Description": "A popular biscuit-based snack food, flavored with ginger and powdered sugar.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 90,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 87
+				},
+
+				"MizuLeo.MoreRecipes_GooseberryPie": {
+					"Name": "Gooseberry Pie",
+					"DisplayName": "Gooseberry Pie",
+					"Description": "A pie made from wild berries and topped with a streusel crumble.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 220,
+
+					"Edibility": 86,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 88
+				},
+
+				"MizuLeo.MoreRecipes_GrahamCracker": {
+					"Name": "Graham Cracker",
+					"DisplayName": "Graham Cracker",
+					"Description": "Just who is Graham anyways?",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 100,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 89
+				},
+
+				"MizuLeo.MoreRecipes_HardCandies": {
+					"Name": "Hard Candies",
+					"DisplayName": "Hard Candies",
+					"Description": "Sugary, sweet, and tart.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 50,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 62
+				},
+
+				"MizuLeo.MoreRecipes_HoneyCake": {
+					"Name": "Honey Cake",
+					"DisplayName": "Honey Cake",
+					"Description": "A pure honey cake.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 90
+				},
+
+				"MizuLeo.MoreRecipes_Jello": {
+					"Name": "Jello",
+					"DisplayName": "Jello",
+					"Description": "Wobble.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 80,
+
+					"Edibility": 50,
+					"Buff": {
+						"Duration": 430,
+						"CustomAttributes": {
+							"MagneticRadius": 32
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 117
+				},
+
+				"MizuLeo.MoreRecipes_KeyLimePie": {
+					"Name": "Key Lime Pie",
+					"DisplayName": "Key Lime Pie",
+					"Description": "Tart and sour, with a dollop of whipped cream.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 86,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 91
+				},
+
+				"MizuLeo.MoreRecipes_Ladyfinger": {
+					"Name": "Ladyfinger",
+					"DisplayName": "Ladyfinger",
+					"Description": "A sweet, bready cookie.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 90,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 92
+				},
+
+				"MizuLeo.MoreRecipes_LemonCake": {
+					"Name": "Lemon Cake",
+					"DisplayName": "Lemon Cake",
+					"Description": "A sweet and tart cake covered with a lemon glaze.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 325,
+
+					"Edibility": 50,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 93
+				},
+
+				"MizuLeo.MoreRecipes_LemonPie": {
+					"Name": "Lemon Pie",
+					"DisplayName": "Lemon Pie",
+					"Description": "Tart and sour, with a dollop of whipped cream.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 86,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 94
+				},
+
+				"MizuLeo.MoreRecipes_Licorice": {
+					"Name": "Licorice",
+					"DisplayName": "Licorice",
+					"Description": "The twisty candy made from a licorice root.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 125,
+
+					"Edibility": 36,
+					"Buff": {
+						"Duration": 300,
+						"CustomAttributes": {
+							"Speed": 1
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 95
+				},
+
+				"MizuLeo.MoreRecipes_Macaron": {
+					"Name": "Macaron",
+					"DisplayName": "Macaron",
+					"Description": "A light, almondy cookie with a sweet filling.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 36,
+					"Buff": {
+						"Duration": 780,
+						"CustomAttributes": {
+							"Attack": 2
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 96
+				},
+
+				"MizuLeo.MoreRecipes_Marshmallow": {
+					"Name": "Marshmallow",
+					"DisplayName": "Marshmallow",
+					"Description": "In the words of the popular sci-fi character: I am preparing to toast a marshmelon.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 50,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 97
+				},
+
+				"MizuLeo.MoreRecipes_Nougat": {
+					"Name": "Nougat",
+					"DisplayName": "Nougat",
+					"Description": "Light and sweet, made with pistachios.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 50,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 98
+				},
+
+				"MizuLeo.MoreRecipes_Pavlova": {
+					"Name": "Pavlova",
+					"DisplayName": "Pavlova",
+					"Description": "An airy meringue topped with fruit.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 300,
+
+					"Edibility": 86,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 119
+				},
+
+				"MizuLeo.MoreRecipes_PeanutButterCups": {
+					"Name": "Peanut Butter Cups",
+					"DisplayName": "Peanut Butter Cups",
+					"Description": "You can never eat just one.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 36,
+					"Buff": {
+						"Duration": 400,
+						"CustomAttributes": {
+							"Speed": 1
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 99
+				},
+
+				"MizuLeo.MoreRecipes_PecanPie": {
+					"Name": "Pecan Pie",
+					"DisplayName": "Pecan Pie",
+					"Description": "A nutty pie with a glazed topping.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 225,
+
+					"Edibility": 86,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 100
+				},
+
+				"MizuLeo.MoreRecipes_PeppermintCandy": {
+					"Name": "Peppermint Candy",
+					"DisplayName": "Peppermint Candy",
+					"Description": "Iconic!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 125,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 101
+				},
+
+				"MizuLeo.MoreRecipes_PoachedPear": {
+					"Name": "Poached Pear",
+					"DisplayName": "Poached Pear",
+					"Description": "Peeled pears drowned in honey.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 50,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 102
+				},
+
+				"MizuLeo.MoreRecipes_Popsicle": {
+					"Name": "Popsicle",
+					"DisplayName": "Popsicle",
+					"Description": "Different flavored fruit juice frozen on a stick.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 80,
+
+					"Edibility": 50,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 103
+				},
+
+				"MizuLeo.MoreRecipes_RaspberryCobbler": {
+					"Name": "Raspberry Cobbler",
+					"DisplayName": "Raspberry Cobbler",
+					"Description": "A tart flavored cobbler.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 260,
+
+					"Edibility": 70,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 104
+				},
+
+				"MizuLeo.MoreRecipes_RaspberryTart": {
+					"Name": "Raspberry Tart",
+					"DisplayName": "Raspberry Tart",
+					"Description": "A raspberry filled tart.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 75,
+
+					"Edibility": 50,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 105
+				},
+
+				"MizuLeo.MoreRecipes_Smore": {
+					"Name": "S'more",
+					"DisplayName": "S'more",
+					"Description": "Because you always want additional ones.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 50,
+					"Buff": {
+						"Duration": 480,
+						"CustomAttributes": {
+							"Defense": 2,
+							"Attack": 1
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 106
+				},
+
+				"MizuLeo.MoreRecipes_Sachertorte": {
+					"Name": "Sachertorte",
+					"DisplayName": "Sachertorte",
+					"Description": "A decedent chocolate confection.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 400,
+
+					"Edibility": 100,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 107
+				},
+
+				"MizuLeo.MoreRecipes_SandwichCookie": {
+					"Name": "Sandwich Cookie",
+					"DisplayName": "Sandwich Cookie",
+					"Description": "Recognizable chocolate cookies with a cream filling.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 210,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 108
+				},
+
+				"MizuLeo.MoreRecipes_Scone": {
+					"Name": "Scone",
+					"DisplayName": "Scone",
+					"Description": "A fruit flavored pastry.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 175,
+
+					"Edibility": 70,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 109
+				},
+
+				"MizuLeo.MoreRecipes_Snickerdoodle": {
+					"Name": "Snickerdoodle",
+					"DisplayName": "Snickerdoodle",
+					"Description": "A light, somewhat cinnamon-flavored cookie.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 130,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 110
+				},
+
+				"MizuLeo.MoreRecipes_Souffle": {
+					"Name": "Soufflé",
+					"DisplayName": "Soufflé",
+					"Description": "A lemon desert that puffs up when cooked.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 275,
+
+					"Edibility": 70,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 111
+				},
+
+				"MizuLeo.MoreRecipes_Taffy": {
+					"Name": "Taffy",
+					"DisplayName": "Taffy",
+					"Description": "Chewy.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 50,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 112
+				},
+
+				"MizuLeo.MoreRecipes_Tiramisu": {
+					"Name": "Tiramisu",
+					"DisplayName": "Tiramisu",
+					"Description": "A cake made with coffee drenched cookies.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 265,
+
+					"Edibility": 70,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 113
+				},
+
+				"MizuLeo.MoreRecipes_VanillaPudding": {
+					"Name": "Vanilla Pudding",
+					"DisplayName": "Vanilla Pudding",
+					"Description": "A childhood favorite.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 185,
+
+					"Edibility": 50,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 114
+				},
+
+				"MizuLeo.MoreRecipes_WhiskeyCake": {
+					"Name": "Whiskey Cake",
+					"DisplayName": "Whiskey Cake",
+					"Description": "A sweet cake that has as rich flavor.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 390,
+
+					"Edibility": 70,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 115
+				},
+
+				"MizuLeo.MoreRecipes_WhiteChocolate": {
+					"Name": "White Chocolate",
+					"DisplayName": "White Chocolate",
+					"Description": "Chocolate made from cocoa butter.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 180,
+
+					"Edibility": 36,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 116
+				},
+
+			// alcohol
+				"MizuLeo.MoreRecipes_Aviation": {
+					"Name": "Aviation",
+					"DisplayName": "Aviation",
+					"Description": "Please place your tray tables in the upright and locked position. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 265,
+
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 1
+				},
+
+				"MizuLeo.MoreRecipes_Bellini": {
+					"Name": "Bellini",
+					"DisplayName": "Bellini",
+					"Description": "A mixture of sparkling wine and peach purée or nectar. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 25,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 2
+				},
+
+				"MizuLeo.MoreRecipes_BlackJunimo": {
+					"Name": "Black Junimo",
+					"DisplayName": "Black Junimo",
+					"Description": "Five parts vodka to two parts coffee liqueur. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 210,
+
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 3
+				},
+
+				"MizuLeo.MoreRecipes_BloodyMary": {
+					"Name": "Bloody Mary",
+					"DisplayName": "Bloody Mary",
+					"Description": "Don't say it more than once. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 220,
+
+					"Edibility": 25,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 4
+				},
+
+				"MizuLeo.MoreRecipes_BlueHurricane": {
+					"Name": "Blue Hurricane",
+					"DisplayName": "BlueHurricane",
+					"Description": "You're in the eye of the storm now. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 400,
+
+					"Edibility": 30,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 5
+				},
+
+				"MizuLeo.MoreRecipes_Cosmopolitan": {
+					"Name": "Cosmopolitan",
+					"DisplayName": "Cosmopolitan",
+					"Description": "A cocktail made with vodka, cranberry juice, and freshly squeezed or sweetened lime juice. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 350,
+
+					"Edibility": 25,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 6
+				},
+
+				"MizuLeo.MoreRecipes_Daiquiri": {
+					"Name": "Daiquiri",
+					"DisplayName": "Daiquiri",
+					"Description": "A sweet drink of rum and fruit. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 275,
+
+					"Edibility": 30,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 7
+				},
+
+				"MizuLeo.MoreRecipes_DeathintheAfternoon": {
+					"Name": "Death in the Afternoon",
+					"DisplayName": "Death in the Afternoon",
+					"Description": "Also called the Hemingway, it has an opalescent green milkiness. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 8
+				},
+
+				"MizuLeo.MoreRecipes_FernIslandIcedTea": {
+					"Name": "Fern Island Iced Tea",
+					"DisplayName": "Fern Island Iced Tea",
+					"Description": "You mean there's no tea in this!? Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 450,
+
+					"Edibility": 3,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 11
+				},
+
+				"MizuLeo.MoreRecipes_FourHorsemen": {
+					"Name": "Four Horsemen",
+					"DisplayName": "Four Horsemen",
+					"Description": "Death, war, famine... oh, you're drunk. Drink in strict moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 350,
+
+					"Edibility": 3,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45,
+						"CustomAttributes": {
+							"Attack": 4,
+							"Speed": -2
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 9
+				},
+
+				"MizuLeo.MoreRecipes_GinandTonic": {
+					"Name": "Gin and Tonic",
+					"DisplayName": "Gin and Tonic",
+					"Description": "One part gin to one part tonic. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 225,
+
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 10
+				},
+
+				"MizuLeo.MoreRecipes_GotoroMule": {
+					"Name": "Gotoro Mule",
+					"DisplayName": "Gotoro Mule",
+					"Description": "Icy vodka, ginger, and beer. Served in a copper mug. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 300,
+
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 12
+				},
+
+				"MizuLeo.MoreRecipes_GreenJunimo": {
+					"Name": "Green Junimo",
+					"DisplayName": "Green Junimo",
+					"Description": "Like a black or white junimo, but made with absinthe. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 175,
+
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 13
+				},
+
+				"MizuLeo.MoreRecipes_HardEggnog": {
+					"Name": "Hard Eggnog",
+					"DisplayName": "Hard Eggnog",
+					"Description": "Festive! Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 300,
+
+					"Edibility": 25,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 14
+				},
+
+				"MizuLeo.MoreRecipes_HardIcedTea": {
+					"Name": "Hard Iced Tea",
+					"DisplayName": "Hard Iced Tea",
+					"Description": "...but there's tea in this one, right? Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 300,
+
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 15
+				},
+
+				"MizuLeo.MoreRecipes_JelloShot": {
+					"Name": "Jello Shot",
+					"DisplayName": "Jello Shot",
+					"Description": "Jello and alcohol, what a mix! Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 225,
+
+					"Edibility": 3,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 40
+				},
+
+				"MizuLeo.MoreRecipes_LemonChuhai": {
+					"Name": "Lemon Chuhai",
+					"DisplayName": "Lemon Chuhai",
+					"Description": "A highball with a splash of lemon. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 25,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 16
+				},
+
+				"MizuLeo.MoreRecipes_MaiTai": {
+					"Name": "Mai Tai",
+					"DisplayName": "Mai Tai",
+					"Description": "Your tai, his tai, her tai, everybody's tai! Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 300,
+
+					"Edibility": 30,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 17
+				},
+
+				"MizuLeo.MoreRecipes_Margarita": {
+					"Name": "Margarita",
+					"DisplayName": "Margarita",
+					"Description": "One margarita, two margarita, three margarita, floor! Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 30,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 18
+				},
+
+				"MizuLeo.MoreRecipes_Martini": {
+					"Name": "Martini",
+					"DisplayName": "Martini",
+					"Description": "Shaken, not stirred. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 225,
+
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 19
+				},
+
+				"MizuLeo.MoreRecipes_Mimosa": {
+					"Name": "Mimosa",
+					"DisplayName": "Mimosa",
+					"Description": "Here's my advice: have a little faith and, if that doesn't work, have a lot of mimosas. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 30,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 20
+				},
+
+				"MizuLeo.MoreRecipes_MintJulep": {
+					"Name": "Mint Julep",
+					"DisplayName": "Mint Julep",
+					"Description": "My, my, I do declare! Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 270,
+
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 21
+				},
+
+				"MizuLeo.MoreRecipes_Mojito": {
+					"Name": "Mojito",
+					"DisplayName": "Mojito",
+					"Description": "What? They said not to drink the water. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 350,
+
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 22
+				},
+
+				"MizuLeo.MoreRecipes_Mudslide": {
+					"Name": "Mudslide",
+					"DisplayName": "Mudslide",
+					"Description": "A dessert cocktail with a chocolatey, creamy flavor. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 23
+				},
+
+				"MizuLeo.MoreRecipes_Negroni": {
+					"Name": "Negroni",
+					"DisplayName": "Negroni",
+					"Description": "Gin and sweet vermouth on the rocks. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 375,
+
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 24
+				},
+
+				"MizuLeo.MoreRecipes_NightontheBeach": {
+					"Name": "Night on the Beach",
+					"DisplayName": "Night on the Beach",
+					"Description": "A fruity, tropical beverage. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 400,
+
+					"Edibility": 30,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 25
+				},
+
+				"MizuLeo.MoreRecipes_OldFashioned": {
+					"Name": "Old Fashioned",
+					"DisplayName": "Old Fashioned",
+					"Description": "Who are you calling old fashioned? Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 375,
+
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 26
+				},
+
+				"MizuLeo.MoreRecipes_OolongChuhai": {
+					"Name": "Oolong Chuhai",
+					"DisplayName": "Oolong Chuhai",
+					"Description": "A highball with a splash of oolong tea. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 25,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 27
+				},
+
+				"MizuLeo.MoreRecipes_PinaColada": {
+					"Name": "Piña Colada",
+					"DisplayName": "Piña Colada",
+					"Description": "If you like getting caught in the rain... Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 300,
+
+					"Edibility": 30,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 28
+				},
+
+				"MizuLeo.MoreRecipes_RumandCola": {
+					"Name": "Rum and Cola",
+					"DisplayName": "Rum and Cola",
+					"Description": "Rum with a splash of soda. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 225,
+
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 29
+				},
+
+				"MizuLeo.MoreRecipes_Sangria": {
+					"Name": "Sangria",
+					"DisplayName": "Sangria",
+					"Description": "Want a little bit of fruit with that wine? Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 300,
+
+					"Edibility": 25,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 30
+				},
+
+				"MizuLeo.MoreRecipes_Screwdriver": {
+					"Name": "Screwdriver",
+					"DisplayName": "Screwdriver",
+					"Description": "Please don't operate heavy machinery under the influence. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 25,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 31
+				},
+
+				"MizuLeo.MoreRecipes_Snakebite": {
+					"Name": "Snakebite",
+					"DisplayName": "Snakebite",
+					"Description": "Don't try to suck out the poison. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 32
+				},
+
+				"MizuLeo.MoreRecipes_Spritz": {
+					"Name": "Spritz",
+					"DisplayName": "Spritz",
+					"Description": "Wine with a splash of bitter orange flavor. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 350,
+
+					"Edibility": 25,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 33
+				},
+
+				"MizuLeo.MoreRecipes_Tamagozake": {
+					"Name": "Tamagozaké",
+					"DisplayName": "Tamagozaké",
+					"Description": "A drink consisting of heated saké, sugar and a raw egg. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 275,
+
+					"Edibility": 25,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 34
+				},
+
+				"MizuLeo.MoreRecipes_TequilaSunrise": {
+					"Name": "Tequila Sunrise",
+					"DisplayName": "Tequila Sunrise",
+					"Description": "Drink enough of these in the evening and you'll have a tequila sunrise! Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 30,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 35
+				},
+
+				"MizuLeo.MoreRecipes_TheLastWord": {
+					"Name": "The Last Word",
+					"DisplayName": "The Last Word",
+					"Description": "Who gets the last word? Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 340,
+
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 36
+				},
+
+				"MizuLeo.MoreRecipes_WhiskeySour": {
+					"Name": "Whiskey Sour",
+					"DisplayName": "Whiskey Sour",
+					"Description": "Whiskey with the tart addition of cherries and citrus. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 37
+				},
+
+				"MizuLeo.MoreRecipes_WhiteJunimo": {
+					"Name": "White Junimo",
+					"DisplayName": "White Junimo",
+					"Description": "Five parts vodka to two parts coffee liqueur. A splash of milk. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 225,
+
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 38
+				},
+
+				"MizuLeo.MoreRecipes_ZuzuCity": {
+					"Name": "Zuzu City",
+					"DisplayName": "Zuzu City",
+					"Description": "Whiskey with sweet accents. Made popular in the city. Drink in moderation.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 265,
+
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buff": {
+						"BuffId": 17,
+						"Duration": 45
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 39
+				},
+
+			// drinks
+				"MizuLeo.MoreRecipes_AppleCider": {
+					"Name": "Apple Cider",
+					"DisplayName": "Apple Cider",
+					"Description": "A bubbly soda with a bright apple flavor.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 25,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 120
+				},
+
+				"MizuLeo.MoreRecipes_AutumnalTea": {
+					"Name": "Autumnal Tea",
+					"DisplayName": "Autumnal Tea",
+					"Description": "A warm cup of tea that reminds you of fall.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 220,
+
+					"Edibility": 5,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 121
+				},
+
+				"MizuLeo.MoreRecipes_BarleyTea": {
+					"Name": "Barley Tea",
+					"DisplayName": "Barley Tea",
+					"Description": "Also known as mugicha.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 120,
+
+					"Edibility": 5,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 122
+				},
+
+				"MizuLeo.MoreRecipes_BerryFusionTea": {
+					"Name": "Berry Fusion Tea",
+					"DisplayName": "Berry Fusion Tea",
+					"Description": "Infused with cross-season flavors; it's worth the wait!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 220,
+
+					"Edibility": 5,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 123
+				},
+
+				"MizuLeo.MoreRecipes_BlackTea": {
+					"Name": "Black Tea",
+					"DisplayName": "Black Tea",
+					"Description": "Brewed to perfection. The flavors of this tea are more pronounced without sugar!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 125,
+
+					"Edibility": 5,
+					"IsDrink": true,
+					"Buff": {
+						"Duration": 360,
+						"CustomAttributes": {
+							"MaxStamina": 30
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 124
+				},
+
+				"MizuLeo.MoreRecipes_BlueMistTea": {
+					"Name": "Blue Mist Tea",
+					"DisplayName": "Blue Mist Tea",
+					"Description": "A calming tea recipe from a far away valley.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 5,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 125
+				},
+
+				"MizuLeo.MoreRecipes_BobaTea": {
+					"Name": "Boba Tea",
+					"DisplayName": "Boba Tea",
+					"Description": "A sweet flavored milk tea with tapioca pearls.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 370,
+
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buff": {
+						"Duration": 960,
+						"CustomAttributes": {
+							"MagneticRadius": 64
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 126
+				},
+
+				"MizuLeo.MoreRecipes_BreakfastTea": {
+					"Name": "Breakfast Tea",
+					"DisplayName": "Breakfast Tea",
+					"Description": "A popular, sugared tea.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 230,
+
+					"Edibility": 5,
+					"IsDrink": true,
+					"Buff": {
+						"Duration": 360,
+						"CustomAttributes": {
+							"MaxStamina": 30
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 127
+				},
+
+				"MizuLeo.MoreRecipes_CamelliaTea": {
+					"Name": "Camellia Tea",
+					"DisplayName": "Camellia Tea",
+					"Description": "A relaxing tea made from camellia petals.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 120,
+
+					"Edibility": 5,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 128
+				},
+
+				"MizuLeo.MoreRecipes_ChaiTea": {
+					"Name": "Chai Tea",
+					"DisplayName": "Chai Tea",
+					"Description": "\"Chai\" means \"tea.\" You're saying \"tea tea!\"",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 225,
+
+					"Edibility": 5,
+					"IsDrink": true,
+					"Buff": {
+						"Duration": 360,
+						"CustomAttributes": {
+							"MaxStamina": 30
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 129
+				},
+
+				"MizuLeo.MoreRecipes_ChamomileTea": {
+					"Name": "Chamomile Tea",
+					"DisplayName": "Chamomile Tea",
+					"Description": "An herbal tea brewed from chamomile.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 120,
+
+					"Edibility": 5,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 130
+				},
+
+				"MizuLeo.MoreRecipes_CranberryPomegranateTea": {
+					"Name": "Cranberry Pomegranate Tea",
+					"DisplayName": "Cranberry Pomegranate Tea",
+					"Description": "A fruity tea with the tartness of a pomegranate.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 255,
+
+					"Edibility": 5,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 131
+				},
+
+				"MizuLeo.MoreRecipes_DandelionTea": {
+					"Name": "Dandelion Tea",
+					"DisplayName": "Dandelion Tea",
+					"Description": "The fresh dandelion in this rejuvenates your senses.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 135,
+
+					"Edibility": 5,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 132
+				},
+
+				"MizuLeo.MoreRecipes_EarlGreyTea": {
+					"Name": "Earl Grey Tea",
+					"DisplayName": "Earl Grey Tea",
+					"Description": "Tea. Earl Grey. Hot.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 5,
+					"IsDrink": true,
+					"Buff": {
+						"Duration": 360,
+						"CustomAttributes": {
+							"MaxStamina": 30
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 133
+				},
+
+				"MizuLeo.MoreRecipes_Eggnog": {
+					"Name": "Eggnog",
+					"DisplayName": "Eggnog",
+					"Description": "Fun fact, they're not all alcoholic.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 300,
+
+					"Edibility": 25,
+					"IsDrink": true,
+					"Buff": {
+						"Duration": 480,
+						"CustomAttributes": {
+							"Defense": 2
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 134
+				},
+
+				"MizuLeo.MoreRecipes_EstivalTea": {
+					"Name": "Estival Tea",
+					"DisplayName": "Estival Tea",
+					"Description": "A warm up of tea that reminds you of summer.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 220,
+
+					"Edibility": 5,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 135
+				},
+
+				"MizuLeo.MoreRecipes_FruitTea": {
+					"Name": "Fruit Tea",
+					"DisplayName": "Fruit Tea",
+					"Description": "A sweet tea with fruit notes.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 20,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 136
+				},
+
+				"MizuLeo.MoreRecipes_HibernalTea": {
+					"Name": "Hibernal Tea",
+					"DisplayName": "Hibernal Tea",
+					"Description": "A warm up of tea that reminds you of winter.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 5,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 137
+				},
+
+				"MizuLeo.MoreRecipes_Horchata": {
+					"Name": "Horchata",
+					"DisplayName": "Horchata",
+					"Description": "A milk and rice blend with a nutty flavor.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 175,
+
+					"Edibility": 25,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 138
+				},
+
+				"MizuLeo.MoreRecipes_JasmineTea": {
+					"Name": "Jasmine Tea",
+					"DisplayName": "Jasmine Tea",
+					"Description": "Tea made from the petals of a jasmine flower.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 125,
+
+					"Edibility": 5,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 139
+				},
+
+				"MizuLeo.MoreRecipes_LavenderMilkTea": {
+					"Name": "Lavender Milk Tea",
+					"DisplayName": "Lavender Milk Tea",
+					"Description": "A creamy tea made milk and lavender.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 370,
+
+					"Edibility": 5,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 140
+				},
+
+				"MizuLeo.MoreRecipes_LemonTea": {
+					"Name": "Lemon Tea",
+					"DisplayName": "Lemon Tea",
+					"Description": "Citrusy and warm, it's good on a sore throat.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 230,
+
+					"Edibility": 5,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 141
+				},
+
+				"MizuLeo.MoreRecipes_Matcha": {
+					"Name": "Matcha",
+					"DisplayName": "Matcha",
+					"Description": "A mild brew with aged leaves. Tastes great!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 400,
+
+					"Edibility": 5,
+					"IsDrink": true,
+					"Buff": {
+						"Duration": 360,
+						"CustomAttributes": {
+							"MaxStamina": 30
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 142
+				},
+
+				"MizuLeo.MoreRecipes_MilkTea": {
+					"Name": "Milk Tea",
+					"DisplayName": "Milk Tea",
+					"Description": "A sweet flavored tea mixed with milk or cream.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 270,
+
+					"Edibility": 5,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 143
+				},
+
+				"MizuLeo.MoreRecipes_Milkshake": {
+					"Name": "Milkshake",
+					"DisplayName": "Milkshake",
+					"Description": "Ice cream and milk mixed together with whipped cream and a cherry.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 250,
+
+					"Edibility": 25,
+					"IsDrink": true,
+					"Buff": {
+						"Duration": 900,
+						"CustomAttributes": {
+							"Speed": 2
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 144
+				},
+
+				"MizuLeo.MoreRecipes_MintTea": {
+					"Name": "Mint Tea",
+					"DisplayName": "Mint Tea",
+					"Description": "A cooling and minty beverage.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 5,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 145
+				},
+
+				"MizuLeo.MoreRecipes_OolongTea": {
+					"Name": "Oolong Tea",
+					"DisplayName": "Oolong Tea",
+					"Description": "A bit between a green and black tea, the leaves are shriveled.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 150,
+
+					"Edibility": 5,
+					"IsDrink": true,
+					"Buff": {
+						"Duration": 360,
+						"CustomAttributes": {
+							"MaxStamina": 30
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 146
+				},
+
+				"MizuLeo.MoreRecipes_RoseTea": {
+					"Name": "Rose Tea",
+					"DisplayName": "Rose Tea",
+					"Description": "Rose petals and hips make this floral tea have a distinct flavor.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 5,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 147
+				},
+
+				"MizuLeo.MoreRecipes_SingleShotEspresso": {
+					"Name": "Single Shot Espresso",
+					"DisplayName": "Single Shot Espresso",
+					"Description": "Very strong coffee!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 300,
+
+					"Edibility": 2,
+					"IsDrink": true,
+					"Buff": {
+						"Duration": 180,
+						"CustomAttributes": {
+							"Speed": 1
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 148
+				},
+
+				"MizuLeo.MoreRecipes_SouthernSweetTea": {
+					"Name": "Southern Sweet Tea",
+					"DisplayName": "Southern Sweet Tea",
+					"Description": "A refreshingly sweet drink. It'll give you a sugary rush.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 200,
+
+					"Edibility": 5,
+					"IsDrink": true,
+					"Buff": {
+						"Duration": 360,
+						"CustomAttributes": {
+							"MaxStamina": 30
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 149
+				},
+
+				"MizuLeo.MoreRecipes_SpicedTea": {
+					"Name": "Spiced Tea",
+					"DisplayName": "Spiced Tea",
+					"Description": "A warming tea that's good in cold weather.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 225,
+
+					"Edibility": 5,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 150
+				},
+
+				"MizuLeo.MoreRecipes_StrawberryGrapefruitTea": {
+					"Name": "Strawberry Grapefruit Tea",
+					"DisplayName": "Strawberry Grapefruit Tea",
+					"Description": "Orange and peach flavors mesh well in this fruity tea.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 220,
+
+					"Edibility": 5,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 151
+				},
+
+				"MizuLeo.MoreRecipes_SunTea": {
+					"Name": "Sun Tea",
+					"DisplayName": "Sun Tea",
+					"Description": "Black tea sweetened with the finest ingredients in the world.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 1200,
+
+					"Edibility": 25,
+					"IsDrink": true,
+					"Buff": {
+						"Duration": 360,
+						"CustomAttributes": {
+							"LuckLevel": 3,
+							"MaxStamina": 50
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 152
+				},
+
+				"MizuLeo.MoreRecipes_VernalTea": {
+					"Name": "Vernal Tea",
+					"DisplayName": "Vernal Tea",
+					"Description": "A warm up of tea that reminds you of spring.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 0,
+
+					"Edibility": 5,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 153
+				},
+
+				"MizuLeo.MoreRecipes_WhiteTea": {
+					"Name": "White Tea",
+					"DisplayName": "White Tea",
+					"Description": "A light brew of young tea leaves, it has a fresh flavor.",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 75,
+
+					"Edibility": 5,
+					"IsDrink": true,
+					"Buff": {
+						"Duration": 360,
+						"CustomAttributes": {
+							"MaxStamina": 30
+							}
+					},
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 154
+				},
+
+			// purchasable
+				"MizuLeo.MoreRecipes_ClubSoda": {
+					"Name": "Club Soda",
+					"DisplayName": "Club Soda",
+					"Description": "A bubbly seltzer used to mix drinks.",
+					"Type": "Basic",
+					"Price": 25,
+
+					"Edibility": 5,
+					"IsDrink": true,
+
+					"Texture": "Mods/MizuLeo.MoreRecipes/Objects",
+					"SpriteIndex": 0
+				},
 			}
-		}
-	]
+        }
+    ]
 }
