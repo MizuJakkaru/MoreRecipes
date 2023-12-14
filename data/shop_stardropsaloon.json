@@ -124,8 +124,28 @@
 					"Price": 50,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
-				}
-			}
+				},
+				
+			},
+			
+			"MoveEntries": [
+				{ "Id": "MizuLeo.MoreRecipes_ClubSoda", "BeforeId": "(O)395" },
+				{ "Id": "MizuLeo.MoreRecipes_AppleCider", "BeforeId": "DishOfTheDay" },
+				{ "Id": "MizuLeo.MoreRecipes_CheeseBoard", "BeforeId": "DishOfTheDay" },
+				{ "Id": "MizuLeo.MoreRecipes_Chocolate", "BeforeId": "DishOfTheDay" },
+				{ "Id": "MizuLeo.MoreRecipes_ChocolatePudding", "BeforeId": "DishOfTheDay" },
+				{ "Id": "MizuLeo.MoreRecipes_ClassicTrailMix", "BeforeId": "DishOfTheDay" },
+				{ "Id": "MizuLeo.MoreRecipes_FruitBar", "BeforeId": "DishOfTheDay" },
+				{ "Id": "MizuLeo.MoreRecipes_HardIcedTea", "BeforeId": "DishOfTheDay" },
+				{ "Id": "MizuLeo.MoreRecipes_HomemadePopcorn", "BeforeId": "DishOfTheDay" },
+				{ "Id": "MizuLeo.MoreRecipes_Ketchup", "BeforeId": "DishOfTheDay" },
+				{ "Id": "MizuLeo.MoreRecipes_Milkshake", "BeforeId": "DishOfTheDay" },
+				{ "Id": "MizuLeo.MoreRecipes_Mustard", "BeforeId": "DishOfTheDay" },
+				{ "Id": "MizuLeo.MoreRecipes_SingleShotEspresso", "BeforeId": "DishOfTheDay" },
+				{ "Id": "MizuLeo.MoreRecipes_SouthernSweetTea", "BeforeId": "DishOfTheDay" },
+				{ "Id": "MizuLeo.MoreRecipes_VanillaPudding", "BeforeId": "DishOfTheDay" },
+				{ "Id": "MizuLeo.MoreRecipes_WhiteChocolate", "BeforeId": "DishOfTheDay" }
+			]
 		},
     ]
 }
