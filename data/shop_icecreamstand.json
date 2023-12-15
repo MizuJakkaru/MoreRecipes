@@ -17,15 +17,7 @@
 					"ItemId": "MizuLeo.MoreRecipes_Popsicle",
 					"Price": 160,
 					"IgnoreShopPriceModifiers": true,
-				}
-			}
-		},
-		// add shop data - ice-cream stand recipes
-		{
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "IceCreamStand", "Items" ],
-			"Entries": {
+				},
 				"MizuLeo.MoreRecipes_Creamsicle": {
 					"Id": "MizuLeo.MoreRecipes_Creamsicle",
 					"ItemId": "MizuLeo.MoreRecipes_Creamsicle",

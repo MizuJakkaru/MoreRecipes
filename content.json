@@ -11,7 +11,7 @@
 		// add subfiles
 		{
 			"Action": "Include",
-			"FromFile": "data/cookingrecipes.json, data/eventshop_eggfestival.json, data/eventshop_festivalofice.json, data/eventshop_flowerdance.json, data/eventshop_moonlightjellies.json, data/eventshop_nightmarket.json, data/eventshop_sdvfair.json, data/eventshop_spiritseve.json, data/mail.json, data/objects.json, data/objectcontexttags.json, data/shop_adventure.json, data/shop_deserttrader.json, data/shop_icecreamstand.json, data/shop_islandtrader.json, data/shop_marnie.json, data/shop_oasis.json, data/shop_resortbar.json, data/shop_stardropsaloon.json, data/shop_willy.json"
+			"FromFile": "data/cookingrecipes.json, data/eventshop_eggfestival.json, data/eventshop_festivalofice.json, data/eventshop_flowerdance.json, data/eventshop_luau.json, data/eventshop_moonlightjellies.json, data/eventshop_nightmarket.json, data/eventshop_sdvfair.json, data/eventshop_spiritseve.json, data/eventshop_winterstar.json, data/mail.json, data/objects.json, data/objectcontexttags.json, data/shop_adventure.json, data/shop_deserttrader.json, data/shop_icecreamstand.json, data/shop_islandtrader.json, data/shop_marnie.json, data/shop_oasis.json, data/shop_resortbar.json, data/shop_stardropsaloon.json, data/shop_willy.json"
 		},
     ]
 }
