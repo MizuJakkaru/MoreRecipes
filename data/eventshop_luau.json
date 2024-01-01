@@ -6,9 +6,9 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "Festival_Luau_Pierre", "Items" ],
 			"Entries": {
-				"MizuLeo.MoreRecipes_BlueHurricane": {
-					"Id": "MizuLeo.MoreRecipes_BlueHurricane",
-					"ItemId": "MizuLeo.MoreRecipes_BlueHurricane",
+				"Cornucopia.MoreRecipes_BlueHurricane": {
+					"Id": "Cornucopia.MoreRecipes_BlueHurricane",
+					"ItemId": "Cornucopia.MoreRecipes_BlueHurricane",
 					"Price": 2000,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true

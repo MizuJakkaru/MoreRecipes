@@ -6,38 +6,38 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "Festival_FeastOfTheWinterStar_Pierre", "Items" ],
 			"Entries": {
-				"MizuLeo.MoreRecipes_Fruitcake": {
-					"Id": "MizuLeo.MoreRecipes_Fruitcake",
-					"ItemId": "MizuLeo.MoreRecipes_Fruitcake",
+				"Cornucopia.MoreRecipes_Fruitcake": {
+					"Id": "Cornucopia.MoreRecipes_Fruitcake",
+					"ItemId": "Cornucopia.MoreRecipes_Fruitcake",
 					"Price": 1000,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_Gingerbread": {
-					"Id": "MizuLeo.MoreRecipes_Gingerbread",
-					"ItemId": "MizuLeo.MoreRecipes_Gingerbread",
+				"Cornucopia.MoreRecipes_Gingerbread": {
+					"Id": "Cornucopia.MoreRecipes_Gingerbread",
+					"ItemId": "Cornucopia.MoreRecipes_Gingerbread",
 					"Price": 500,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_PeppermintCandy": {
-					"Id": "MizuLeo.MoreRecipes_PeppermintCandy",
-					"ItemId": "MizuLeo.MoreRecipes_PeppermintCandy",
+				"Cornucopia.MoreRecipes_PeppermintCandy": {
+					"Id": "Cornucopia.MoreRecipes_PeppermintCandy",
+					"ItemId": "Cornucopia.MoreRecipes_PeppermintCandy",
 					"Price": 500,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_Fudge": {
-					"Id": "MizuLeo.MoreRecipes_Fudge",
-					"ItemId": "MizuLeo.MoreRecipes_Fudge",
+				"Cornucopia.MoreRecipes_Fudge": {
+					"Id": "Cornucopia.MoreRecipes_Fudge",
+					"ItemId": "Cornucopia.MoreRecipes_Fudge",
 					"Condition": "YEAR 2",
 					"Price": 1500,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_HibernalTea": {
-					"Id": "MizuLeo.MoreRecipes_HibernalTea",
-					"ItemId": "MizuLeo.MoreRecipes_HibernalTea",
+				"Cornucopia.MoreRecipes_HibernalTea": {
+					"Id": "Cornucopia.MoreRecipes_HibernalTea",
+					"ItemId": "Cornucopia.MoreRecipes_HibernalTea",
 					"Condition": "YEAR 2",
 					"Price": 3000,
 					"IgnoreShopPriceModifiers": true,

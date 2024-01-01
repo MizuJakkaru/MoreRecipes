@@ -6,23 +6,23 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "Sandy", "Items" ],
 			"Entries": {
-				"MizuLeo.MoreRecipes_CranberryPomegranateTea": {
-					"Id": "MizuLeo.MoreRecipes_CranberryPomegranateTea",
-					"ItemId": "MizuLeo.MoreRecipes_CranberryPomegranateTea",
+				"Cornucopia.MoreRecipes_CranberryPomegranateTea": {
+					"Id": "Cornucopia.MoreRecipes_CranberryPomegranateTea",
+					"ItemId": "Cornucopia.MoreRecipes_CranberryPomegranateTea",
 					"Price": 500,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_SpicedTea": {
-					"Id": "MizuLeo.MoreRecipes_SpicedTea",
-					"ItemId": "MizuLeo.MoreRecipes_SpicedTea",
+				"Cornucopia.MoreRecipes_SpicedTea": {
+					"Id": "Cornucopia.MoreRecipes_SpicedTea",
+					"ItemId": "Cornucopia.MoreRecipes_SpicedTea",
 					"Price": 1250,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_StrawberryGrapefruitTea": {
-					"Id": "MizuLeo.MoreRecipes_StrawberryGrapefruitTea",
-					"ItemId": "MizuLeo.MoreRecipes_StrawberryGrapefruitTea",
+				"Cornucopia.MoreRecipes_StrawberryGrapefruitTea": {
+					"Id": "Cornucopia.MoreRecipes_StrawberryGrapefruitTea",
+					"ItemId": "Cornucopia.MoreRecipes_StrawberryGrapefruitTea",
 					"Price": 500,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true

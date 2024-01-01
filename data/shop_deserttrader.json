@@ -6,9 +6,9 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "DesertTrade", "Items" ],
 			"Entries": {
-				"MizuLeo.MoreRecipes_HoneyCake": {
-					"Id": "MizuLeo.MoreRecipes_HoneyCake",
-					"ItemId": "MizuLeo.MoreRecipes_HoneyCake",
+				"Cornucopia.MoreRecipes_HoneyCake": {
+					"Id": "Cornucopia.MoreRecipes_HoneyCake",
+					"ItemId": "Cornucopia.MoreRecipes_HoneyCake",
 					"TradeItemId": "(O)68", // Topaz
 					"TradeItemAmount": 1,
 					"IgnoreShopPriceModifiers": true,

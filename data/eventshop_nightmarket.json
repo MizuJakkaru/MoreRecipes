@@ -6,23 +6,23 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "Festival_NightMarket_MagicBoat_Day1", "Items" ],
 			"Entries": {
-				"MizuLeo.MoreRecipes_CottonCandy": {
-					"Id": "MizuLeo.MoreRecipes_CottonCandy",
-					"ItemId": "MizuLeo.MoreRecipes_CottonCandy",
+				"Cornucopia.MoreRecipes_CottonCandy": {
+					"Id": "Cornucopia.MoreRecipes_CottonCandy",
+					"ItemId": "Cornucopia.MoreRecipes_CottonCandy",
 					"Price": 500,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_Dango": {
-					"Id": "MizuLeo.MoreRecipes_Dango",
-					"ItemId": "MizuLeo.MoreRecipes_Dango",
+				"Cornucopia.MoreRecipes_Dango": {
+					"Id": "Cornucopia.MoreRecipes_Dango",
+					"ItemId": "Cornucopia.MoreRecipes_Dango",
 					"Price": 1000,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_SoftPretzel": {
-					"Id": "MizuLeo.MoreRecipes_SoftPretzel",
-					"ItemId": "MizuLeo.MoreRecipes_SoftPretzel",
+				"Cornucopia.MoreRecipes_SoftPretzel": {
+					"Id": "Cornucopia.MoreRecipes_SoftPretzel",
+					"ItemId": "Cornucopia.MoreRecipes_SoftPretzel",
 					"Price": 1000,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
@@ -35,23 +35,23 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "Festival_NightMarket_MagicBoat_Day2", "Items" ],
 			"Entries": {
-				"MizuLeo.MoreRecipes_BakedApple": {
-					"Id": "MizuLeo.MoreRecipes_BakedApple",
-					"ItemId": "MizuLeo.MoreRecipes_BakedApple",
+				"Cornucopia.MoreRecipes_BakedApple": {
+					"Id": "Cornucopia.MoreRecipes_BakedApple",
+					"ItemId": "Cornucopia.MoreRecipes_BakedApple",
 					"Price": 1000,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_RedBeanBun": {
-					"Id": "MizuLeo.MoreRecipes_RedBeanBun",
-					"ItemId": "MizuLeo.MoreRecipes_RedBeanBun",
+				"Cornucopia.MoreRecipes_RedBeanBun": {
+					"Id": "Cornucopia.MoreRecipes_RedBeanBun",
+					"ItemId": "Cornucopia.MoreRecipes_RedBeanBun",
 					"Price": 2000,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_Takoyaki": {
-					"Id": "MizuLeo.MoreRecipes_Takoyaki",
-					"ItemId": "MizuLeo.MoreRecipes_Takoyaki",
+				"Cornucopia.MoreRecipes_Takoyaki": {
+					"Id": "Cornucopia.MoreRecipes_Takoyaki",
+					"ItemId": "Cornucopia.MoreRecipes_Takoyaki",
 					"Price": 3000,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
@@ -64,16 +64,16 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "Festival_NightMarket_MagicBoat_Day3", "Items" ],
 			"Entries": {
-				"MizuLeo.MoreRecipes_FriedSweetBanana": {
-					"Id": "MizuLeo.MoreRecipes_FriedSweetBanana",
-					"ItemId": "MizuLeo.MoreRecipes_FriedSweetBanana",
+				"Cornucopia.MoreRecipes_FriedSweetBanana": {
+					"Id": "Cornucopia.MoreRecipes_FriedSweetBanana",
+					"ItemId": "Cornucopia.MoreRecipes_FriedSweetBanana",
 					"Price": 1000,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_Taiyaki": {
-					"Id": "MizuLeo.MoreRecipes_Taiyaki",
-					"ItemId": "MizuLeo.MoreRecipes_Taiyaki",
+				"Cornucopia.MoreRecipes_Taiyaki": {
+					"Id": "Cornucopia.MoreRecipes_Taiyaki",
+					"ItemId": "Cornucopia.MoreRecipes_Taiyaki",
 					"Price": 2000,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true

@@ -6,23 +6,23 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "IslandTrade", "Items" ],
 			"Entries": {
-				"MizuLeo.MoreRecipes_BonitoFlakes": {
-					"Id": "MizuLeo.MoreRecipes_BonitoFlakes",
-					"ItemId": "MizuLeo.MoreRecipes_BonitoFlakes",
+				"Cornucopia.MoreRecipes_BonitoFlakes": {
+					"Id": "Cornucopia.MoreRecipes_BonitoFlakes",
+					"ItemId": "Cornucopia.MoreRecipes_BonitoFlakes",
 					"TradeItemId": "(O)130", // Tuna
 					"TradeItemAmount": 1,
 					"IgnoreShopPriceModifiers": true
 				},
-				"MizuLeo.MoreRecipes_Margarita": {
-					"Id": "MizuLeo.MoreRecipes_Margarita",
-					"ItemId": "MizuLeo.MoreRecipes_Margarita",
+				"Cornucopia.MoreRecipes_Margarita": {
+					"Id": "Cornucopia.MoreRecipes_Margarita",
+					"ItemId": "Cornucopia.MoreRecipes_Margarita",
 					"TradeItemId": "(O)838", // Blue Discus
 					"TradeItemAmount": 1,
 					"IgnoreShopPriceModifiers": true
 				},
-				"MizuLeo.MoreRecipes_NightontheBeach": {
-					"Id": "MizuLeo.MoreRecipes_NightontheBeach",
-					"ItemId": "MizuLeo.MoreRecipes_NightontheBeach",
+				"Cornucopia.MoreRecipes_NightontheBeach": {
+					"Id": "Cornucopia.MoreRecipes_NightontheBeach",
+					"ItemId": "Cornucopia.MoreRecipes_NightontheBeach",
 					"TradeItemId": "(O)837", // Lionfish
 					"TradeItemAmount": 1,
 					"IgnoreShopPriceModifiers": true

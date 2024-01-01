@@ -6,9 +6,9 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "Saloon", "Items" ],
 			"Entries": {
-				"MizuLeo.MoreRecipes_ClubSoda": {
-					"Id": "MizuLeo.MoreRecipes_ClubSoda",
-					"ItemId": "MizuLeo.MoreRecipes_ClubSoda",
+				"Cornucopia.MoreRecipes_ClubSoda": {
+					"Id": "Cornucopia.MoreRecipes_ClubSoda",
+					"ItemId": "Cornucopia.MoreRecipes_ClubSoda",
 					"Price": 50,
 					"IgnoreShopPriceModifiers": true
 				}
@@ -20,107 +20,107 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "Saloon", "Items" ],
 			"Entries": {
-				"MizuLeo.MoreRecipes_AppleCider": {
-					"Id": "MizuLeo.MoreRecipes_AppleCider",
-					"ItemId": "MizuLeo.MoreRecipes_AppleCider",
+				"Cornucopia.MoreRecipes_AppleCider": {
+					"Id": "Cornucopia.MoreRecipes_AppleCider",
+					"ItemId": "Cornucopia.MoreRecipes_AppleCider",
 					"Price": 800,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_CheeseBoard": {
-					"Id": "MizuLeo.MoreRecipes_CheeseBoard",
-					"ItemId": "MizuLeo.MoreRecipes_CheeseBoard",
+				"Cornucopia.MoreRecipes_CheeseBoard": {
+					"Id": "Cornucopia.MoreRecipes_CheeseBoard",
+					"ItemId": "Cornucopia.MoreRecipes_CheeseBoard",
 					"Price": 100,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_Chocolate": {
-					"Id": "MizuLeo.MoreRecipes_Chocolate",
-					"ItemId": "MizuLeo.MoreRecipes_Chocolate",
+				"Cornucopia.MoreRecipes_Chocolate": {
+					"Id": "Cornucopia.MoreRecipes_Chocolate",
+					"ItemId": "Cornucopia.MoreRecipes_Chocolate",
 					"Price": 50,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_ChocolatePudding": {
-					"Id": "MizuLeo.MoreRecipes_ChocolatePudding",
-					"ItemId": "MizuLeo.MoreRecipes_ChocolatePudding",
+				"Cornucopia.MoreRecipes_ChocolatePudding": {
+					"Id": "Cornucopia.MoreRecipes_ChocolatePudding",
+					"ItemId": "Cornucopia.MoreRecipes_ChocolatePudding",
 					"Price": 100,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_ClassicTrailMix": {
-					"Id": "MizuLeo.MoreRecipes_ClassicTrailMix",
-					"ItemId": "MizuLeo.MoreRecipes_ClassicTrailMix",
+				"Cornucopia.MoreRecipes_ClassicTrailMix": {
+					"Id": "Cornucopia.MoreRecipes_ClassicTrailMix",
+					"ItemId": "Cornucopia.MoreRecipes_ClassicTrailMix",
 					"Price": 75,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_FruitBar": {
-					"Id": "MizuLeo.MoreRecipes_FruitBar",
-					"ItemId": "MizuLeo.MoreRecipes_FruitBar",
+				"Cornucopia.MoreRecipes_FruitBar": {
+					"Id": "Cornucopia.MoreRecipes_FruitBar",
+					"ItemId": "Cornucopia.MoreRecipes_FruitBar",
 					"Price": 50,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_HardIcedTea": {
-					"Id": "MizuLeo.MoreRecipes_HardIcedTea",
-					"ItemId": "MizuLeo.MoreRecipes_HardIcedTea",
+				"Cornucopia.MoreRecipes_HardIcedTea": {
+					"Id": "Cornucopia.MoreRecipes_HardIcedTea",
+					"ItemId": "Cornucopia.MoreRecipes_HardIcedTea",
 					"Price": 500,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_HomemadePopcorn": {
-					"Id": "MizuLeo.MoreRecipes_HomemadePopcorn",
-					"ItemId": "MizuLeo.MoreRecipes_HomemadePopcorn",
+				"Cornucopia.MoreRecipes_HomemadePopcorn": {
+					"Id": "Cornucopia.MoreRecipes_HomemadePopcorn",
+					"ItemId": "Cornucopia.MoreRecipes_HomemadePopcorn",
 					"Price": 100,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_Ketchup": {
-					"Id": "MizuLeo.MoreRecipes_Ketchup",
-					"ItemId": "MizuLeo.MoreRecipes_Ketchup",
+				"Cornucopia.MoreRecipes_Ketchup": {
+					"Id": "Cornucopia.MoreRecipes_Ketchup",
+					"ItemId": "Cornucopia.MoreRecipes_Ketchup",
 					"Price": 50,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_Milkshake": {
-					"Id": "MizuLeo.MoreRecipes_Milkshake",
-					"ItemId": "MizuLeo.MoreRecipes_Milkshake",
+				"Cornucopia.MoreRecipes_Milkshake": {
+					"Id": "Cornucopia.MoreRecipes_Milkshake",
+					"ItemId": "Cornucopia.MoreRecipes_Milkshake",
 					"Price": 80,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_Mustard": {
-					"Id": "MizuLeo.MoreRecipes_Mustard",
-					"ItemId": "MizuLeo.MoreRecipes_Mustard",
+				"Cornucopia.MoreRecipes_Mustard": {
+					"Id": "Cornucopia.MoreRecipes_Mustard",
+					"ItemId": "Cornucopia.MoreRecipes_Mustard",
 					"Price": 50,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_SingleShotEspresso": {
-					"Id": "MizuLeo.MoreRecipes_SingleShotEspresso",
-					"ItemId": "MizuLeo.MoreRecipes_SingleShotEspresso",
+				"Cornucopia.MoreRecipes_SingleShotEspresso": {
+					"Id": "Cornucopia.MoreRecipes_SingleShotEspresso",
+					"ItemId": "Cornucopia.MoreRecipes_SingleShotEspresso",
 					"Price": 3000,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_SouthernSweetTea": {
-					"Id": "MizuLeo.MoreRecipes_SouthernSweetTea",
-					"ItemId": "MizuLeo.MoreRecipes_SouthernSweetTea",
+				"Cornucopia.MoreRecipes_SouthernSweetTea": {
+					"Id": "Cornucopia.MoreRecipes_SouthernSweetTea",
+					"ItemId": "Cornucopia.MoreRecipes_SouthernSweetTea",
 					"Price": 1200,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_VanillaPudding": {
-					"Id": "MizuLeo.MoreRecipes_VanillaPudding",
-					"ItemId": "MizuLeo.MoreRecipes_VanillaPudding",
+				"Cornucopia.MoreRecipes_VanillaPudding": {
+					"Id": "Cornucopia.MoreRecipes_VanillaPudding",
+					"ItemId": "Cornucopia.MoreRecipes_VanillaPudding",
 					"Price": 100,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_WhiteChocolate": {
-					"Id": "MizuLeo.MoreRecipes_WhiteChocolate",
-					"ItemId": "MizuLeo.MoreRecipes_WhiteChocolate",
+				"Cornucopia.MoreRecipes_WhiteChocolate": {
+					"Id": "Cornucopia.MoreRecipes_WhiteChocolate",
+					"ItemId": "Cornucopia.MoreRecipes_WhiteChocolate",
 					"Price": 50,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
@@ -129,22 +129,22 @@
 			},
 			
 			"MoveEntries": [
-				{ "Id": "MizuLeo.MoreRecipes_ClubSoda", "BeforeId": "(O)395" },
-				{ "Id": "MizuLeo.MoreRecipes_AppleCider", "BeforeId": "DishOfTheDay" },
-				{ "Id": "MizuLeo.MoreRecipes_CheeseBoard", "BeforeId": "DishOfTheDay" },
-				{ "Id": "MizuLeo.MoreRecipes_Chocolate", "BeforeId": "DishOfTheDay" },
-				{ "Id": "MizuLeo.MoreRecipes_ChocolatePudding", "BeforeId": "DishOfTheDay" },
-				{ "Id": "MizuLeo.MoreRecipes_ClassicTrailMix", "BeforeId": "DishOfTheDay" },
-				{ "Id": "MizuLeo.MoreRecipes_FruitBar", "BeforeId": "DishOfTheDay" },
-				{ "Id": "MizuLeo.MoreRecipes_HardIcedTea", "BeforeId": "DishOfTheDay" },
-				{ "Id": "MizuLeo.MoreRecipes_HomemadePopcorn", "BeforeId": "DishOfTheDay" },
-				{ "Id": "MizuLeo.MoreRecipes_Ketchup", "BeforeId": "DishOfTheDay" },
-				{ "Id": "MizuLeo.MoreRecipes_Milkshake", "BeforeId": "DishOfTheDay" },
-				{ "Id": "MizuLeo.MoreRecipes_Mustard", "BeforeId": "DishOfTheDay" },
-				{ "Id": "MizuLeo.MoreRecipes_SingleShotEspresso", "BeforeId": "DishOfTheDay" },
-				{ "Id": "MizuLeo.MoreRecipes_SouthernSweetTea", "BeforeId": "DishOfTheDay" },
-				{ "Id": "MizuLeo.MoreRecipes_VanillaPudding", "BeforeId": "DishOfTheDay" },
-				{ "Id": "MizuLeo.MoreRecipes_WhiteChocolate", "BeforeId": "DishOfTheDay" }
+				{ "Id": "Cornucopia.MoreRecipes_ClubSoda", "BeforeId": "(O)395" },
+				{ "Id": "Cornucopia.MoreRecipes_AppleCider", "BeforeId": "DishOfTheDay" },
+				{ "Id": "Cornucopia.MoreRecipes_CheeseBoard", "BeforeId": "DishOfTheDay" },
+				{ "Id": "Cornucopia.MoreRecipes_Chocolate", "BeforeId": "DishOfTheDay" },
+				{ "Id": "Cornucopia.MoreRecipes_ChocolatePudding", "BeforeId": "DishOfTheDay" },
+				{ "Id": "Cornucopia.MoreRecipes_ClassicTrailMix", "BeforeId": "DishOfTheDay" },
+				{ "Id": "Cornucopia.MoreRecipes_FruitBar", "BeforeId": "DishOfTheDay" },
+				{ "Id": "Cornucopia.MoreRecipes_HardIcedTea", "BeforeId": "DishOfTheDay" },
+				{ "Id": "Cornucopia.MoreRecipes_HomemadePopcorn", "BeforeId": "DishOfTheDay" },
+				{ "Id": "Cornucopia.MoreRecipes_Ketchup", "BeforeId": "DishOfTheDay" },
+				{ "Id": "Cornucopia.MoreRecipes_Milkshake", "BeforeId": "DishOfTheDay" },
+				{ "Id": "Cornucopia.MoreRecipes_Mustard", "BeforeId": "DishOfTheDay" },
+				{ "Id": "Cornucopia.MoreRecipes_SingleShotEspresso", "BeforeId": "DishOfTheDay" },
+				{ "Id": "Cornucopia.MoreRecipes_SouthernSweetTea", "BeforeId": "DishOfTheDay" },
+				{ "Id": "Cornucopia.MoreRecipes_VanillaPudding", "BeforeId": "DishOfTheDay" },
+				{ "Id": "Cornucopia.MoreRecipes_WhiteChocolate", "BeforeId": "DishOfTheDay" }
 			]
 		},
     ]

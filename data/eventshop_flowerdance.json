@@ -6,16 +6,16 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "Festival_FlowerDance_Pierre", "Items" ],
 			"Entries": {
-				"MizuLeo.MoreRecipes_ChocolateCoveredStrawberry": {
-					"Id": "MizuLeo.MoreRecipes_ChocolateCoveredStrawberry",
-					"ItemId": "MizuLeo.MoreRecipes_ChocolateCoveredStrawberry",
+				"Cornucopia.MoreRecipes_ChocolateCoveredStrawberry": {
+					"Id": "Cornucopia.MoreRecipes_ChocolateCoveredStrawberry",
+					"ItemId": "Cornucopia.MoreRecipes_ChocolateCoveredStrawberry",
 					"Price": 1000,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_VernalTea": {
-					"Id": "MizuLeo.MoreRecipes_VernalTea",
-					"ItemId": "MizuLeo.MoreRecipes_VernalTea",
+				"Cornucopia.MoreRecipes_VernalTea": {
+					"Id": "Cornucopia.MoreRecipes_VernalTea",
+					"ItemId": "Cornucopia.MoreRecipes_VernalTea",
 					"Condition": "YEAR 2",
 					"Price": 3000,
 					"IgnoreShopPriceModifiers": true,

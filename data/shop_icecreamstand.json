@@ -6,28 +6,28 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "IceCreamStand", "Items" ],
 			"Entries": {
-				"MizuLeo.MoreRecipes_Creamsicle": {
-					"Id": "MizuLeo.MoreRecipes_Creamsicle",
-					"ItemId": "MizuLeo.MoreRecipes_Creamsicle",
+				"Cornucopia.MoreRecipes_Creamsicle": {
+					"Id": "Cornucopia.MoreRecipes_Creamsicle",
+					"ItemId": "Cornucopia.MoreRecipes_Creamsicle",
 					"Price": 300,
 					"IgnoreShopPriceModifiers": true,
 				},
-				"MizuLeo.MoreRecipes_Popsicle": {
-					"Id": "MizuLeo.MoreRecipes_Popsicle",
-					"ItemId": "MizuLeo.MoreRecipes_Popsicle",
+				"Cornucopia.MoreRecipes_Popsicle": {
+					"Id": "Cornucopia.MoreRecipes_Popsicle",
+					"ItemId": "Cornucopia.MoreRecipes_Popsicle",
 					"Price": 160,
 					"IgnoreShopPriceModifiers": true,
 				},
-				"MizuLeo.MoreRecipes_Creamsicle": {
-					"Id": "MizuLeo.MoreRecipes_Creamsicle",
-					"ItemId": "MizuLeo.MoreRecipes_Creamsicle",
+				"Cornucopia.MoreRecipes_Creamsicle": {
+					"Id": "Cornucopia.MoreRecipes_Creamsicle",
+					"ItemId": "Cornucopia.MoreRecipes_Creamsicle",
 					"Price": 1500,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_Popsicle": {
-					"Id": "MizuLeo.MoreRecipes_Popsicle",
-					"ItemId": "MizuLeo.MoreRecipes_Popsicle",
+				"Cornucopia.MoreRecipes_Popsicle": {
+					"Id": "Cornucopia.MoreRecipes_Popsicle",
+					"ItemId": "Cornucopia.MoreRecipes_Popsicle",
 					"Price": 500,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true

@@ -6,30 +6,30 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "Festival_EggFestival_Pierre", "Items" ],
 			"Entries": {
-				"MizuLeo.MoreRecipes_Caramel": {
-					"Id": "MizuLeo.MoreRecipes_Caramel",
-					"ItemId": "MizuLeo.MoreRecipes_Caramel",
+				"Cornucopia.MoreRecipes_Caramel": {
+					"Id": "Cornucopia.MoreRecipes_Caramel",
+					"ItemId": "Cornucopia.MoreRecipes_Caramel",
 					"Price": 500,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_CaramelEgg": {
-					"Id": "MizuLeo.MoreRecipes_CaramelEgg",
-					"ItemId": "MizuLeo.MoreRecipes_CaramelEgg",
+				"Cornucopia.MoreRecipes_CaramelEgg": {
+					"Id": "Cornucopia.MoreRecipes_CaramelEgg",
+					"ItemId": "Cornucopia.MoreRecipes_CaramelEgg",
 					"Price": 1000,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_HardBoiledEgg": {
-					"Id": "MizuLeo.MoreRecipes_HardBoiledEgg",
-					"ItemId": "MizuLeo.MoreRecipes_HardBoiledEgg",
+				"Cornucopia.MoreRecipes_HardBoiledEgg": {
+					"Id": "Cornucopia.MoreRecipes_HardBoiledEgg",
+					"ItemId": "Cornucopia.MoreRecipes_HardBoiledEgg",
 					"Price": 500,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_CarrotCake": {
-					"Id": "MizuLeo.MoreRecipes_CarrotCake",
-					"ItemId": "MizuLeo.MoreRecipes_CarrotCake",
+				"Cornucopia.MoreRecipes_CarrotCake": {
+					"Id": "Cornucopia.MoreRecipes_CarrotCake",
+					"ItemId": "Cornucopia.MoreRecipes_CarrotCake",
 					"Condition": "YEAR 2",
 					"Price": 3000,
 					"IgnoreShopPriceModifiers": true,

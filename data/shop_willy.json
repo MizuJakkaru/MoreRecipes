@@ -6,16 +6,16 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "FishShop", "Items" ],
 			"Entries": {
-				"MizuLeo.MoreRecipes_Narutomaki": {
-					"Id": "MizuLeo.MoreRecipes_Narutomaki",
-					"ItemId": "MizuLeo.MoreRecipes_Narutomaki",
+				"Cornucopia.MoreRecipes_Narutomaki": {
+					"Id": "Cornucopia.MoreRecipes_Narutomaki",
+					"ItemId": "Cornucopia.MoreRecipes_Narutomaki",
 					"Price": 500,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_Surimi": {
-					"Id": "MizuLeo.MoreRecipes_Surimi",
-					"ItemId": "MizuLeo.MoreRecipes_Surimi",
+				"Cornucopia.MoreRecipes_Surimi": {
+					"Id": "Cornucopia.MoreRecipes_Surimi",
+					"ItemId": "Cornucopia.MoreRecipes_Surimi",
 					"Price": 500,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true

@@ -6,16 +6,16 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "AnimalShop", "Items" ],
 			"Entries": {
-				"MizuLeo.MoreRecipes_BrownSugar": {
-					"Id": "MizuLeo.MoreRecipes_BrownSugar",
-					"ItemId": "MizuLeo.MoreRecipes_BrownSugar",
+				"Cornucopia.MoreRecipes_BrownSugar": {
+					"Id": "Cornucopia.MoreRecipes_BrownSugar",
+					"ItemId": "Cornucopia.MoreRecipes_BrownSugar",
 					"Price": 50,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true
 				},
-				"MizuLeo.MoreRecipes_HoneyButter": {
-					"Id": "MizuLeo.MoreRecipes_HoneyButter",
-					"ItemId": "MizuLeo.MoreRecipes_HoneyButter",
+				"Cornucopia.MoreRecipes_HoneyButter": {
+					"Id": "Cornucopia.MoreRecipes_HoneyButter",
+					"ItemId": "Cornucopia.MoreRecipes_HoneyButter",
 					"Price": 50,
 					"IgnoreShopPriceModifiers": true,
 					"IsRecipe": true

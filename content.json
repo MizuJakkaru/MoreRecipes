@@ -4,7 +4,7 @@
         // add item images
         {
             "Action": "Load",
-            "Target": "Mods/MizuLeo.MoreRecipes/Objects",
+            "Target": "Mods/Cornucopia.MoreRecipes/Objects",
             "FromFile": "assets/{{TargetWithoutPath}}.png" // assets/Crops.png, assets/Objects.png
         },
 		
